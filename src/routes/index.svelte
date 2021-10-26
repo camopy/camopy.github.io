@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import About from "$lib/components/about/About.svelte";
+  import Experience from "$lib/components/experience/Experience.svelte";
+</script>
+
+<div class="flex-1">
+  <div class="flex flex-col gap-4">
+    <About />
+    <Experience />
+  </div>
+</div>
