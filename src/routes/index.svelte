@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex-1">
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col">
     <About />
     <Experience />
   </div>
