@@ -5,7 +5,9 @@
   export let job;
 </script>
 
-<div class="flex justify-start gap-6 w-full max-w-screen-xl">
+<div
+  class="flex flex-col sm:flex-row justify-start gap-6 w-full max-w-screen-xl"
+>
   <TimelineDate startDate={job.startDate} endDate={job.endDate} highlighted />
   <div class="flex-1">
     <div class="flex gap-2">
@@ -35,7 +37,7 @@
     <p class="mt-2">{job.description}</p>
   </div>
 </div>
-<div class="my-4 ml-4">
+<div class="my-4 ml-4 mr-4 sm:mr-0">
   {#each job.positions as position}
     <JobPosition {position} />
   {/each}
