@@ -5,7 +5,7 @@
   export let job;
 </script>
 
-<div class="flex justify-start gap-6 w-screen max-w-screen-xl">
+<div class="flex justify-start gap-6 w-full max-w-screen-xl">
   <TimelineDate startDate={job.startDate} endDate={job.endDate} highlighted />
   <div class="flex-1">
     <div class="flex gap-2">

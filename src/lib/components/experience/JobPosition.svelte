@@ -5,7 +5,7 @@
   export let position;
 </script>
 
-<div class="flex justify-start gap-6 w-screen max-w-screen-xl my-4">
+<div class="flex justify-start gap-6 max-w-screen-xl my-4 w-full">
   <TimelineDate startDate={position.startDate} endDate={position.endDate} />
   <div>
     <div class="flex gap-2">
