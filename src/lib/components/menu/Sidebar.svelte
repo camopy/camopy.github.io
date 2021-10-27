@@ -3,9 +3,9 @@
   import SocialMedia from "./SocialMedia.svelte";
 </script>
 
-<nav class="shadow-xl w-64 hidden lg:block h-screen">
-  <div class="my-10 flex flex-col items-center gap-2">
-    <img src="/perfil.JPG" alt="Profile" class="w-24 rounded-full" />
+<nav class="shadow-xl w-64 hidden lg:block h-screen bg-secondary text-primary">
+  <div class="py-10 flex flex-col items-center gap-2">
+    <img src="/perfil.JPG" alt="Profile" class="w-40 rounded-full" />
     <h1 class="flex flex-col items-center text-2xl">
       Paulo Camopy <span class="text-base">Software Developer</span>
     </h1>
@@ -29,7 +29,7 @@
 
       <SocialMedia link="https://t.me/camopy">
         <svg
-          fill="#000000"
+          fill="#ffffff"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="24px"
@@ -43,7 +43,7 @@
 
       <SocialMedia link="https://www.linkedin.com/in/camopy/">
         <svg
-          fill="#000000"
+          fill="#ffffff"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="24px"
@@ -57,7 +57,7 @@
 
       <SocialMedia link="https://github.com/camopy">
         <svg
-          fill="#000000"
+          fill="#ffffff"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="24px"

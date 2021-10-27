@@ -2,6 +2,6 @@
   export let name;
 </script>
 
-<div class="bg-red-400 text-white px-2 font-bold">
+<div class="bg-accent text-white px-2 font-bold">
   {name}
 </div>

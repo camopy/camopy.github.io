@@ -8,8 +8,8 @@
   <SectionContent>
     <div class="flex flex-col gap-4 text-lg">
       <p>
-        A <span class="text-pink-500">software developer</span> with over
-        <span class="text-pink-500">10 years of experience</span>.
+        A <span class="text-accent">software developer</span> with over
+        <span class="text-accent">10 years of experience</span>.
       </p>
 
       <p>

@@ -26,11 +26,11 @@
         />
       </svg>
       <h2>
-        <span class="border-b-2 border-gray-500"
+        <span class="border-b-2 border-secondary"
           ><span class="text-lg font-bold">{job.company}</span>, {job.location}</span
         >
 
-        <i class="ml-2 text-lg text-gray-500">{job.title}</i>
+        <i class="ml-2 text-lg text-secondary">{job.title}</i>
       </h2>
     </div>
 
