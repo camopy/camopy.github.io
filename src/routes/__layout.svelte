@@ -5,6 +5,10 @@
 </script>
 
 <div class="flex w-full h-full">
-  <Menu />
-  <slot />
+  <div class="hidden lg:fixed lg:block">
+    <Menu />
+  </div>
+  <div class="lg:ml-64 ml-0">
+    <slot />
+  </div>
 </div>

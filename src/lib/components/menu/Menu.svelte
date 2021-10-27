@@ -3,7 +3,7 @@
   import SocialMedia from "./SocialMedia.svelte";
 </script>
 
-<nav class="shadow-xl w-64 hidden xl:block">
+<nav class="shadow-xl w-64 hidden lg:block h-screen">
   <div class="my-10 flex flex-col items-center gap-2">
     <img src="/perfil.JPG" alt="Profile" class="w-24 rounded-full" />
     <h1 class="flex flex-col items-center text-2xl">
