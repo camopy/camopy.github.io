@@ -12,13 +12,15 @@
         <span class="text-accent">10 years of experience</span>.
       </p>
 
-      <p>
-        I'm motivated to help people with the knowledge I have in Information
-        Technology. I have developed the desire of creating high-end apps that
-        would enhance the user’s performance while performing daily tasks
-        through the use of today’s technology, so they can be more effective in
-        their activities.
-      </p>
+      <div class="border-l-2 border-accent text-secondary">
+        <p class="pl-2">
+          I'm motivated to help people with the knowledge I have in Information
+          Technology. I have developed the desire of creating high-end apps that
+          would enhance the user’s performance while performing daily tasks
+          through the use of today’s technology, so they can be more effective
+          in their activities.
+        </p>
+      </div>
 
       <p>
         I have maintained, developed and launched multiple projects from
