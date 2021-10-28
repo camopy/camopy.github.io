@@ -6,7 +6,7 @@
   import "../app.css";
 </script>
 
-<div class="z-10 fixed">
+<div class="z-10 lg:fixed">
   <GitHubCorner url="https://github.com/camopy/camopy.github.io" />
 </div>
 
