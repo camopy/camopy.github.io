@@ -3,8 +3,9 @@
 </script>
 
 <a
-  href="https://your-url"
+  href={url}
   class="github-corner"
+  target="__blank"
   aria-label="View source on GitHub"
   ><svg
     width="80"
