@@ -1,9 +1,14 @@
 <script>
+  import GitHubCorner from "$lib/components/GitHubCorner.svelte";
   import Sidebar from "$lib/components/menu/Sidebar.svelte";
   import Topbar from "$lib/components/menu/Topbar.svelte";
 
   import "../app.css";
 </script>
+
+<div class="z-10 fixed">
+  <GitHubCorner url="https://github.com/camopy/camopy.github.io" />
+</div>
 
 <div class="lg:flex w-full h-full">
   <div class="hidden lg:fixed lg:block">
