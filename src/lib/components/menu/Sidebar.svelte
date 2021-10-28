@@ -5,7 +5,13 @@
 
 <nav class="shadow-xl w-64 hidden lg:block h-screen bg-secondary text-primary">
   <div class="py-10 flex flex-col items-center gap-2">
-    <img src="/perfil.JPG" alt="Profile" class="w-40 rounded-full" />
+    <img
+      src="/perfil.JPG"
+      width="160px"
+      height="160px"
+      alt="Profile"
+      class="w-40 rounded-full"
+    />
     <h1 class="flex flex-col items-center text-2xl">
       Paulo Camopy <span class="text-base">Software Developer</span>
     </h1>
