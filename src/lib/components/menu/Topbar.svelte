@@ -1,6 +1,18 @@
 <script>
+  import { slide } from "svelte/transition";
+
   import MenuItem from "./MenuItem.svelte";
   import SocialMedia from "./SocialMedia.svelte";
+
+  let openedMenu = false;
+
+  function handleMenuClick() {
+    toggleMenu();
+  }
+
+  function toggleMenu() {
+    openedMenu = !openedMenu;
+  }
 </script>
 
 <nav class="shadow-xl w-full lg:hidden bg-secondary text-primary">
@@ -85,27 +97,30 @@
       </SocialMedia>
     </div>
 
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-6 w-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"
-      />
-    </svg>
+    <button on:click={handleMenuClick}>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+    </button>
   </div>
-
-  <!-- <ul class="text-center shadow-inner">
-    <MenuItem name="About" link="#about" />
-    <MenuItem name="Experience" link="#experience" />
-    <MenuItem name="Skills" link="#skills" />
-    <MenuItem name="Education" link="#education" />
-    <MenuItem name="Resume" link="#resume" />
-  </ul> -->
+  {#if openedMenu}
+    <ul class="text-center shadow-inner" transition:slide>
+      <MenuItem name="About" link="#about" bind:openedMenu />
+      <MenuItem name="Experience" link="#experience" bind:openedMenu />
+      <MenuItem name="Skills" link="#skills" bind:openedMenu />
+      <MenuItem name="Education" link="#education" bind:openedMenu />
+      <MenuItem name="Resume" link="#resume" bind:openedMenu />
+    </ul>
+  {/if}
 </nav>
