@@ -1,5 +1,6 @@
 <script>
-  export let startDate, endDate, highlighted;
+  export let startDate, endDate;
+  export let highlighted = false;
 </script>
 
 <div class="sm:flex gap-4">
