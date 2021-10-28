@@ -8,7 +8,7 @@
   <SectionContent>
     <div class="flex flex-col gap-4 text-lg">
       <p>
-        A <span class="text-accent">software developer</span> with over
+        I'm a <span class="text-accent">software developer</span> with over
         <span class="text-accent">10 years of experience</span>.
       </p>
 
