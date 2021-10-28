@@ -5,6 +5,10 @@
   import Skills from "$lib/components/skills/Skills.svelte";
 </script>
 
+<head>
+  <title>Paulo Camopy | Software Developer</title>
+</head>
+
 <div class="flex-1">
   <div class="flex flex-col">
     <About />
