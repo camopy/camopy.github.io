@@ -21,8 +21,9 @@
     class="w-full border-t border-b border-primary py-4 px-2 flex justify-between"
   >
     <div class="flex gap-2">
-      <SocialMedia link="mailto:paulorenato.cpb@gmail.com">
+      <SocialMedia link="mailto:paulorenato.cpb@gmail.com" label="Email">
         <svg
+          alt="Email"
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
           fill="none"
@@ -38,8 +39,9 @@
         </svg>
       </SocialMedia>
 
-      <SocialMedia link="https://t.me/camopy">
+      <SocialMedia link="https://t.me/camopy" label="Telegram">
         <svg
+          alt="Telegram"
           fill="#ffffff"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -52,8 +54,9 @@
         >
       </SocialMedia>
 
-      <SocialMedia link="https://www.linkedin.com/in/camopy/">
+      <SocialMedia link="https://www.linkedin.com/in/camopy/" label="LinkedIn">
         <svg
+          alt="LinkedIn"
           fill="#ffffff"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -66,8 +69,9 @@
         >
       </SocialMedia>
 
-      <SocialMedia link="https://github.com/camopy">
+      <SocialMedia link="https://github.com/camopy" label="GitHub">
         <svg
+          alt="GitHub"
           fill="#ffffff"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
