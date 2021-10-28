@@ -7,6 +7,10 @@
 
 <head>
   <title>Paulo Camopy | Software Developer</title>
+  <meta
+    name="description"
+    content="Paulo Camopy, a Software Developer with over 10 years of experience."
+  />
 </head>
 
 <div class="flex-1">
