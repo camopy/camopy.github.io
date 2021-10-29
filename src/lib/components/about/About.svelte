@@ -15,11 +15,10 @@
 
       <div class="border-l-2 border-accent text-secondary">
         <p class="pl-2">
-          I'm motivated to help people with the knowledge I have in Information
-          Technology. I have developed the desire of creating high-end apps that
-          would enhance the user’s performance while performing daily tasks
-          through the use of today’s technology, so they can be more effective
-          in their activities.
+          I'm motivated to help people by creating high-end apps that would
+          enhance the user’s performance while performing daily tasks through
+          the use of today’s technology, so they can be more effective in their
+          activities and gain time to live a good life as everyone deserves.
         </p>
       </div>
 
