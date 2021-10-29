@@ -1,4 +1,6 @@
 <script>
+  import Section from "../Section.svelte";
+
   import SectionContent from "../SectionContent.svelte";
   import SectionHeader from "../SectionHeader.svelte";
 
@@ -16,7 +18,7 @@
   ];
 </script>
 
-<section id="education">
+<Section id="education">
   <SectionHeader title="Education" />
   <SectionContent>
     <div class="flex flex-wrap gap-8 justify-center ">
@@ -55,4 +57,4 @@
       {/each}
     </div>
   </SectionContent>
-</section>
+</Section>

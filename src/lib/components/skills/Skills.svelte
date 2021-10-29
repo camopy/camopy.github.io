@@ -1,4 +1,6 @@
 <script>
+  import Section from "../Section.svelte";
+
   import SectionContent from "../SectionContent.svelte";
   import SectionHeader from "../SectionHeader.svelte";
   import SkillGroup from "./SkillGroup.svelte";
@@ -95,7 +97,7 @@
   };
 </script>
 
-<section id="skills">
+<Section id="skills">
   <SectionHeader title="Skills" />
   <SectionContent>
     <div class="flex flex-col gap-8">
@@ -105,4 +107,4 @@
       <SkillGroup skills={skills.other} title="Other" />
     </div>
   </SectionContent>
-</section>
+</Section>

@@ -1,4 +1,6 @@
 <script>
+  import Section from "../Section.svelte";
+
   import SectionContent from "../SectionContent.svelte";
   import SectionHeader from "../SectionHeader.svelte";
   import ExperienceTimeline from "./ExperienceTimeline.svelte";
@@ -240,9 +242,9 @@ da Fazenda do Estado).`,
   ];
 </script>
 
-<section id="experience">
+<Section id="experience">
   <SectionHeader title="Experience" />
   <SectionContent>
     <ExperienceTimeline {experience} />
   </SectionContent>
-</section>
+</Section>

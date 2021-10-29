@@ -1,9 +1,10 @@
 <script>
-  import SectionContent from "../SectionContent.svelte";
+  import Section from "../Section.svelte";
   import SectionHeader from "../SectionHeader.svelte";
+  import SectionContent from "../SectionContent.svelte";
 </script>
 
-<section id="about">
+<Section id="about">
   <SectionHeader title="About" />
   <SectionContent>
     <div class="flex flex-col gap-4 text-lg">
@@ -35,4 +36,4 @@
       </p>
     </div>
   </SectionContent>
-</section>
+</Section>
