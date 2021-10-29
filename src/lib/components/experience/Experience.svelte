@@ -10,13 +10,13 @@
       title: "Software Developer/Engineer",
       company: "Born In Code",
       location: "Belo Horizonte, Brazil",
-      startDate: "Jul 2017",
+      startDate: "Jul 2019",
       description:
         "Development of apps using Golang, JavaScript frameworks and Firebase.",
       positions: [
         {
           title: "Full Stack Developer/Engineer",
-          startDate: "Mar 2018",
+          startDate: "Jul 2019",
           projects: [
             {
               title: "Fast Server Backups & File Transfers with Monitoring",
@@ -140,15 +140,15 @@ software`,
       company: "300 Softwares",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2017",
-      endDate: "Nov 2020",
+      endDate: "Jun 2019",
       description: `Development of web apps using JavaScript frameworks and NodeJS,
 iOS development, and website design. Several projects were developed using different technologies, such as
 Vue, Firebase, NodeJS, Swift, Polymer, Keystone, Elasticsearch.`,
       positions: [
         {
           title: "Software Developer/Engineer",
-          startDate: "Apr 2018",
-          endDate: "May 2018",
+          startDate: "Fev 2019",
+          endDate: "Jun 2019",
           projects: [
             {
               title: "Azygos",
