@@ -1,5 +1,7 @@
 <script>
-  export let name, link, openedMenu;
+  export let name, link;
+  export let openedMenu = false;
+
   import { selected } from "$lib/stores/menu";
 
   function toggleMenu() {

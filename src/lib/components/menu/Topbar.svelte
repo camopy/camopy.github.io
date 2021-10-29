@@ -120,7 +120,11 @@
       <MenuItem name="Experience" link="#experience" bind:openedMenu />
       <MenuItem name="Skills" link="#skills" bind:openedMenu />
       <MenuItem name="Education" link="#education" bind:openedMenu />
-      <MenuItem name="Resume" link="#resume" bind:openedMenu />
+      <MenuItem
+        name="Resume"
+        link="https://drive.google.com/file/d/1QJXqTqUo07ekZxJpRJYbDw-CRE-tuGrL/view?usp=sharing"
+        bind:openedMenu
+      />
     </ul>
   {/if}
 </nav>

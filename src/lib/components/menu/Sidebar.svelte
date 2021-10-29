@@ -86,6 +86,9 @@
     <MenuItem name="Experience" link="#experience" />
     <MenuItem name="Skills" link="#skills" />
     <MenuItem name="Education" link="#education" />
-    <MenuItem name="Resume" link="#resume" />
+    <MenuItem
+      name="Resume"
+      link="https://drive.google.com/file/d/1QJXqTqUo07ekZxJpRJYbDw-CRE-tuGrL/view?usp=sharing"
+    />
   </ul>
 </nav>
