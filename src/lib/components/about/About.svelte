@@ -23,8 +23,8 @@
       </div>
 
       <p>
-        I have maintained, developed and launched multiple projects from
-        scratch, carrying the development of it's back-end and front-end
+        I have maintained, developed, and launched multiple projects from
+        scratch, carrying the development of its back-end and front-end
         codebases.
       </p>
 

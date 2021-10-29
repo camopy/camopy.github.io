@@ -11,8 +11,8 @@
       company: "Born In Code",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
-      description: `As a solo developer, I have worked on multiple projects from scratch, always taking in account a good code architecture,
-         up to date technologies and best practices. Most of them were developed using Golang, JavaScript frameworks and Firebase.`,
+      description: `As a solo developer, I have worked on multiple projects from scratch, always taking into account a
+      good code architecture, up-to-date technologies, and best practices. Most of them were developed using Golang, JavaScript frameworks, and Firebase.`,
       positions: [
         {
           title: "Full Stack Developer/Engineer",
@@ -204,7 +204,7 @@ the Sharepoint system, which is later used by the sales force team.`,
             },
             {
               title: "Typicals, Textiles, Image Gallery",
-              description: `Maintained the project for listing and filtering all available Typicals, Textiles and Product Images on
+              description: `Maintained the project for listing and filtering all available Typicals, Textiles, and Product Images on
 Allsteel's website`,
               technologies: ["NodeJS", "Polymer", "Keystone", "Elasticsearch"],
             },
