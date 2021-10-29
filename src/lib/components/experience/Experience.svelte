@@ -11,8 +11,8 @@
       company: "Born In Code",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
-      description:
-        "Development of apps using Golang, JavaScript frameworks and Firebase.",
+      description: `As a solo developer, I have worked on multiple projects from scratch, always taking in account a good code architecture,
+         up to date technologies and best practices. Most of them were developed using Golang, JavaScript frameworks and Firebase.`,
       positions: [
         {
           title: "Full Stack Developer/Engineer",
