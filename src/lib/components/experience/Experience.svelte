@@ -38,6 +38,7 @@
               status: "Live",
               description: "E-commerce for PetNaturau company",
               technologies: ["Svelte", "Tailwind CSS", "Firebase"],
+              image: "/petnaturau.png",
               links: [
                 {
                   title: "Website",
@@ -71,6 +72,7 @@ endpoint. Everything is dockerized.`,
               title: "Let me ask - Rocketseat study case",
               description: "Create live Q&A rooms",
               technologies: ["React", "Tailwind CSS", "Firebase"],
+              image: "/letmeask.png",
               links: [
                 {
                   title: "Github",
@@ -155,6 +157,7 @@ Vue, Firebase, NodeJS, Swift, Polymer, Keystone, Elasticsearch.`,
               description: `Web app designed to facilitate communication between
 doctors and patients, with a patient timeline with health data and prescriptions.`,
               technologies: ["Vue", "Firebase"],
+              image: "/azygos.png",
               links: [
                 {
                   title: "Website",
@@ -178,6 +181,7 @@ doctors and patients, with a patient timeline with health data and prescriptions
               title: "300 Softwares Website",
               description: `300 Softwares website development`,
               technologies: ["HTML5", "Bootstrap CSS", "JQuery"],
+              image: "300.png",
               links: [
                 {
                   title: "Website",

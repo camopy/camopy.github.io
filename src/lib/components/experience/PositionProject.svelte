@@ -2,24 +2,54 @@
   import TechnologyBadge from "./TechnologyBadge.svelte";
 
   export let project;
+
+  $: websiteUrl = getWebsiteUrl();
+
+  function getWebsiteUrl() {
+    let url = "";
+
+    if (project.links) {
+      project.links.forEach((link) => {
+        if (link.title === "Website") {
+          url = link.url;
+        }
+      });
+    }
+
+    return url;
+  }
 </script>
 
-<h5 class="font-medium">{project.title}</h5>
+<div class="flex gap-4 flex-wrap">
+  <div class="flex flex-col gap-2">
+    <h5 class="font-medium">{project.title}</h5>
 
-<p>{project.description}</p>
+    <p>{project.description}</p>
 
-<div class="flex gap-2 flex-wrap">
-  {#each project.technologies as tech}
-    <TechnologyBadge name={tech} />
-  {/each}
-</div>
+    <div class="flex gap-2 flex-wrap">
+      {#each project.technologies as tech}
+        <TechnologyBadge name={tech} />
+      {/each}
+    </div>
 
-{#if project.links}
-  <div class="flex gap-2">
-    {#each project.links as link}
-      <a class="underline" href={link.url}>{link.title}</a>
-    {/each}
+    {#if project.links}
+      <div class="flex gap-2">
+        {#each project.links as link}
+          <a class="underline" href={link.url}>{link.title}</a>
+        {/each}
+      </div>
+    {/if}
   </div>
-{/if}
+
+  {#if project.image}
+    {#if websiteUrl}
+      <a href={websiteUrl} aria-label={project.title}>
+        <img width="400px" src={project.image} alt={project.title} />
+      </a>
+    {:else}
+      <img width="400px" src={project.image} alt={project.title} />
+    {/if}
+  {/if}
+</div>
 
 <hr class="my-4" />
