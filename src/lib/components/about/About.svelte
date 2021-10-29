@@ -29,9 +29,9 @@
       </p>
 
       <p>
-        My current stack of preference includes <strong
+        My current stack of preferences includes <strong
           >Golang, JavaScript, TypeScript, SvelteJS, Firebase, Docker</strong
-        > and others technologies related to them.
+        >, and other technologies related to them.
       </p>
     </div>
   </SectionContent>
