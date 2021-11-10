@@ -88,7 +88,7 @@
     <MenuItem name="Education" link="#education" />
     <MenuItem
       name="Resume"
-      link="https://drive.google.com/file/d/1ypxShY-vjZKrvKRLzwKI2bUwdVpV97ED/view?usp=sharing"
+      link="https://drive.google.com/file/d/16VURFyQv1tjku8apn_0DVie_a61bYjVw/view?usp=sharing"
     />
   </ul>
 </nav>
