@@ -251,6 +251,28 @@ da Fazenda do Estado).`,
         },
       ],
     },
+    {
+      title: "Web Developer - Frontend",
+      company: "PUC Minas",
+      location: "Belo Horizonte, Brazil",
+      startDate: "May 2010",
+      endDate: "Dec 2010",
+      description: `Scientific initiation focused on web development`,
+      positions: [
+        {
+          title: "Web Developer",
+          startDate: "May 2010",
+          endDate: "Dec 2010",
+          projects: [
+            {
+              title: "Psicologia em Revista - PePSIC / BVS Psi",
+              description: `Was responsible for the HTML and Markup from "Psicologia em Revista" digital journal.`,
+              technologies: ["HTML5", "Markup"],
+            },
+          ],
+        },
+      ],
+    },
   ];
 </script>
 
