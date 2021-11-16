@@ -1,4 +1,5 @@
 <script>
+  import ProjectLocation from "./ProjectLocation.svelte";
   import TechnologyBadge from "./TechnologyBadge.svelte";
 
   export let project;
@@ -22,7 +23,12 @@
 
 <div class="flex gap-4 flex-wrap">
   <div class="flex flex-col gap-2">
-    <h5 class="font-medium">{project.title}</h5>
+    <div class="flex items-center gap-2">
+      <h5 class="font-medium">{project.title}</h5>
+      {#if project.location}
+        <ProjectLocation location={project.location} />
+      {/if}
+    </div>
 
     <p>{project.description}</p>
 

@@ -20,6 +20,7 @@
           projects: [
             {
               title: "Fast Server Backups & File Transfers with Monitoring",
+              location: "USA",
               inProgress: true,
               private: true,
               description:
@@ -122,6 +123,7 @@ throughout the country.`,
           projects: [
             {
               title: "Stylex - CET Developer",
+              location: "USA",
               description: `Worked for the Stylex Team, customizing their products
 (Share, FA, Yoom, NYC, Metrum) in CET. Have also developed two new
 products for them (Still, Quick).`,
@@ -129,6 +131,7 @@ products for them (Still, Quick).`,
             },
             {
               title: "CET Developer Model Connections",
+              location: "USA",
               description: `Creating new model connections on the CET Developer
 software`,
               technologies: ["CM", "CET Developer"],
@@ -174,6 +177,7 @@ doctors and patients, with a patient timeline with health data and prescriptions
           projects: [
             {
               title: "Unwritten Rules Tour Website",
+              location: "USA",
               description: `WordPress adjustments like menu and responsive design.`,
               technologies: ["Wordpress"],
             },
@@ -191,12 +195,14 @@ doctors and patients, with a patient timeline with health data and prescriptions
             },
             {
               title: "Design Intake",
+              location: "USA",
               description: `Tool, used by Allsteel designers, which creates new
 requests in the Sharepoint system, which is later used by the sales force team`,
               technologies: ["NodeJS", "Jade", "JQuery", "SharePoint"],
             },
             {
               title: "Budgeting Tool",
+              location: "USA",
               description: `Tool, used by Allsteel designers, which calculates the
 costs for the installation of walls and doors, and stores a history of budgets in
 the Sharepoint system, which is later used by the sales force team.`,
@@ -204,12 +210,14 @@ the Sharepoint system, which is later used by the sales force team.`,
             },
             {
               title: "Typicals, Textiles, Image Gallery",
+              location: "USA",
               description: `Maintained the project for listing and filtering all available Typicals, Textiles, and Product Images on
 Allsteel's website`,
               technologies: ["NodeJS", "Polymer", "Keystone", "Elasticsearch"],
             },
             {
               title: "HNI-One Portal",
+              location: "USA",
               description: `Adjustments for the WordPress portal from HNI-One company`,
               technologies: ["Wordpress"],
             },
