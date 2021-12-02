@@ -8,8 +8,10 @@
 
     <script src="https://getinsights.io/js/insights.js"></script>
     <script>
-      insights.init("pl9RkZFaCSC1D9L5");
-      insights.trackPages();
+      if (window.location.hostname !== "localhost") {
+        insights.init("pl9RkZFaCSC1D9L5");
+        insights.trackPages();
+      }
     </script>
   </head>
   <body>
