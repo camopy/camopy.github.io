@@ -33,14 +33,6 @@
   }
 </script>
 
-<head>
-  <title>Paulo Camopy | Software Developer</title>
-  <meta
-    name="description"
-    content="Paulo Camopy, a Software Developer with over 10 years of experience."
-  />
-</head>
-
 <Scroller top={0} bottom={1} threshold={0.5} bind:progress bind:index>
   <div slot="background" />
   <div slot="foreground" class="flex-1 flex flex-col">
