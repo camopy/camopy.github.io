@@ -19,12 +19,12 @@
           startDate: "Jul 2019",
           projects: [
             {
-              title: "Fast Server Backups & File Transfers with Monitoring",
+              title: "Celler",
               location: "USA",
               inProgress: true,
               private: true,
               description:
-                "Transfer files across your servers around the world at lightning speed and monitor everything through a centralized dashboard.",
+                "A service for file synchronization across servers around the world at lightning speed with a centralized dashboard and alerting system for monitoring.",
               technologies: [
                 "Golang",
                 "PostgreSQL",
@@ -32,6 +32,13 @@
                 "Grafana",
                 "Docker",
                 "SvelteKit (TypeScript)",
+                "Tailwind CSS",
+              ],
+              links: [
+                {
+                  title: "Website",
+                  url: "https://celler.tech",
+                },
               ],
             },
             {
