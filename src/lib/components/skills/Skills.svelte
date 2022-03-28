@@ -74,6 +74,10 @@
         image: "firebase.svg",
       },
       {
+        name: "AWS",
+        image: "aws.svg",
+      },
+      {
         name: "MySQL",
         image: "mysql.svg",
       },
