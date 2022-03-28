@@ -12,12 +12,43 @@
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
       description: `As a solo developer, I have worked on multiple projects from scratch, always taking into account a
-      good code architecture, up-to-date technologies, and best practices. Most of them were developed using Golang, JavaScript frameworks, and Firebase.`,
+      good code architecture, up-to-date technologies, and best practices. Most of them were developed using Go, JavaScript frameworks, and Firebase.`,
       positions: [
         {
           title: "Full Stack Developer/Engineer",
           startDate: "Jul 2019",
           projects: [
+            {
+              title: "Criptorium",
+              description: `Online crypto portfolio which connects to various
+exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil.`,
+              technologies: [
+                "Go",
+                "SvelteKit",
+                "Tailwind CSS",
+                "PostgreSQL",
+                "Prometheus",
+                "Grafana",
+                "Docker",
+                "Stripe",
+                "AWS Elastic Beanstalk",
+                "AWS RDS",
+                "AWS Cognito",
+                "AWS CloudWatch",
+                "AWS SQS",
+              ],
+              image: "criptorium.png",
+              links: [
+                {
+                  title: "Website",
+                  url: "https://www.criptorium.com.br/",
+                },
+                {
+                  title: "Application",
+                  url: "https://app.criptorium.com.br/",
+                },
+              ],
+            },
             {
               title: "Celler",
               location: "USA",
@@ -26,7 +57,7 @@
               description:
                 "A service for file synchronization across servers around the world at lightning speed with a centralized dashboard and alerting system for monitoring.",
               technologies: [
-                "Golang",
+                "Go",
                 "PostgreSQL",
                 "Prometheus",
                 "Grafana",
@@ -65,7 +96,7 @@ endpoint. Everything is dockerized.`,
                 "Flask",
                 "MySQL",
                 "SQL Alchemy",
-                "Golang",
+                "Go",
                 "Prometheus",
                 "Grafana",
                 "Docker",
@@ -90,22 +121,6 @@ endpoint. Everything is dockerized.`,
                 {
                   title: "Website",
                   url: "https://letmeask-6d541.web.app/",
-                },
-              ],
-            },
-            {
-              title: "Criptorium",
-              description: `Online crypto portfolio which connects to various
-exchanges through their APIs and syncs your balance and trade history.`,
-              technologies: ["Vue", "Vuetify", "Gridsome", "Firebase"],
-              links: [
-                {
-                  title: "Github",
-                  url: "https://github.com/camopy/criptorium",
-                },
-                {
-                  title: "Landing page",
-                  url: "https://github.com/camopy/criptorium-gridsome",
                 },
               ],
             },
