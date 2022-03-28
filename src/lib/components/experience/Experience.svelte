@@ -34,6 +34,7 @@
                 "SvelteKit (TypeScript)",
                 "Tailwind CSS",
               ],
+              image: "/celler.png",
               links: [
                 {
                   title: "Website",
