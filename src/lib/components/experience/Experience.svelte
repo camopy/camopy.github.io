@@ -12,7 +12,7 @@
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
       description: `As a solo developer, I have worked on multiple projects from scratch, always taking into account a
-      good code architecture, up-to-date technologies, and best practices. Most of them were developed using Go, JavaScript frameworks, and Firebase.`,
+      good code architecture, up-to-date technologies, and best practices. Most of them were developed using Go, JavaScript frameworks, and AWS/Firebase.`,
       positions: [
         {
           title: "Full Stack Developer/Engineer",
@@ -82,7 +82,7 @@ exchanges through their APIs and syncs your balance and trade history, with the 
               links: [
                 {
                   title: "Website",
-                  url: "https://petnaturau.com",
+                  url: "https://assinatura.petnaturau.com",
                 },
               ],
             },
