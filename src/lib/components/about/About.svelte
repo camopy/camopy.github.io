@@ -30,7 +30,7 @@
 
       <p>
         My current stack of preferences includes <strong
-          >Golang, JavaScript, TypeScript, SvelteJS, Firebase, Docker</strong
+          >Go, JavaScript, TypeScript, Svelte, AWS/Firebase, Docker</strong
         >, and other technologies related to them.
       </p>
     </div>
