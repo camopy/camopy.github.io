@@ -41,17 +41,17 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-bec71009.js">
+		<link rel="modulepreload" href="/_app/start-b6229858.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-b0b55241.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-f726b73a.js">
 		<link rel="modulepreload" href="/_app/chunks/menu-57cfb51c.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-ebd96691.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-642c7242.js">
 		<link rel="stylesheet" href="/_app/assets/start-464e9d0a.css">
 		<link rel="stylesheet" href="/_app/assets/vendor-06a4b528.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-2a4af1a7.css">
 
 		<script type="module">
-			import { start } from "/_app/start-bec71009.js";
+			import { start } from "/_app/start-b6229858.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -65,7 +65,7 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-f726b73a.js"),
-						import("/_app/pages/index.svelte-ebd96691.js")
+						import("/_app/pages/index.svelte-642c7242.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -177,7 +177,7 @@
       </div>
 
     <p>Online crypto portfolio which connects to various
-exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil.</p>
+exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil. This project is a relaunch because I had created it early back in 2019, with different technologies. But after learning Go I saw a great opportunity to make it better and more performant, also creating a great infrastructure with AWS which made it more resilient and a total redesign of the website.</p>
     <blockquote class="whitespace-pre-line pl-2 border-l-2">As a solo developer, I needed a way to quickly and efficiently deliver an infrastructure, so I decided to use AWS for it, especially Elastic Beanstalk.
               All the development environment and deployment to AWS Elastic Beanstalk were made using Docker (docker compose).
 
