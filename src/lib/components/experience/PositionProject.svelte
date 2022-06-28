@@ -31,6 +31,11 @@
     </div>
 
     <p>{project.description}</p>
+    {#if project.explanation}
+      <blockquote class="whitespace-pre-line pl-2 border-l-2 leading-relaxed">
+        {project.explanation}
+      </blockquote>
+    {/if}
 
     <div class="flex gap-2 flex-wrap">
       {#each project.technologies as tech}

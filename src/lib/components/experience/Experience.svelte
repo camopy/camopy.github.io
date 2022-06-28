@@ -15,13 +15,21 @@
       good code architecture, up-to-date technologies, and best practices. Most of them were developed using Go, JavaScript frameworks, and AWS/Firebase.`,
       positions: [
         {
-          title: "Full Stack Developer/Engineer",
+          title: "Full Stack Engineer",
           startDate: "Jul 2019",
           projects: [
             {
               title: "Criptorium",
               description: `Online crypto portfolio which connects to various
 exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil.`,
+              explanation: `As a solo developer, I needed a way to quickly and efficiently deliver an infrastructure, so I decided to use AWS for it, especially Elastic Beanstalk.
+For the database, I used AWS RDS with PostgreSQL as I would mostly work with transactional data, hence a good fit for a relational database.
+Authentication was done using JWT via AWS Cognito.
+Payments were made using Stripe with a webhook for subscription handling.
+All the monitoring and metrics were done using AWS CloudWatch, but for development/testing purposes I used Prometheus and Grafana.
+I needed a queue system to handle the crypto wallet fetch requests (some exchange APIs have a weight limit), so I used AWS SQS. Having a queue system has also helped to handle retries for failed wallet fetches, because of the dead queue mechanism.
+For the backend, I used Go because I knew I would need all the performance I could get for it, its concurrency tools would help me a lot for fetching transactions from crypto exchanges APIs.
+I also wanted to use a modern frontend framework, so I decided to use Svelte Kit alongside Tailwind CSS, which also has a very good developer experience.`,
               technologies: [
                 "Go",
                 "SvelteKit",
