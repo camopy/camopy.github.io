@@ -21,7 +21,7 @@
             {
               title: "Criptorium",
               description: `Online crypto portfolio which connects to various
-exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil.`,
+exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil. This project is a relaunch because I had created it early back in 2019, with different technologies. But after learning Go I saw a great opportunity to make it better and more performant, also creating a great infrastructure with AWS which made it more resilient and a total redesign of the website.`,
               explanation: `As a solo developer, I needed a way to quickly and efficiently deliver an infrastructure, so I decided to use AWS for it, especially Elastic Beanstalk.
               All the development environment and deployment to AWS Elastic Beanstalk were made using Docker (docker compose).
 
