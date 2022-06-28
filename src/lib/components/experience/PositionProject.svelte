@@ -32,7 +32,7 @@
 
     <p>{project.description}</p>
     {#if project.explanation}
-      <blockquote class="whitespace-pre-line pl-2 border-l-2 leading-relaxed">
+      <blockquote class="whitespace-pre-line pl-2 border-l-2">
         {project.explanation}
       </blockquote>
     {/if}
