@@ -121,13 +121,9 @@ Delivered a better and more performant project creating a great infrastructure w
               title: "Stylex - CET Developer",
               location: "USA",
               description: `Worked for the Stylex Team, customizing their products
-(Share, FA, Yoom, NYC, Metrum) in CET. Have also developed two new
+(Share, FA, Yoom, NYC, Metrum) in CET. I have also developed two new
 products for them (Still, Quick).`,
-              explanation: `I was chosen to be the developer for the Stylex Team, they needed me to develop some new products
-for them on the CET Developer Software. This software uses an undocumented language, known as CM (from Configura), and I
-have never worked with that before, and they knew that. What helped me to launch those products with success was that
- the code base for this software was so well written, it was so easy to read and understand that with just a few weeks
- I was already solid with the language and the project was flowing very good.`,
+              explanation: `I was chosen to be the developer for the Stylex Team, they needed me to develop some new products for them on the CET Developer Software. This software uses an undocumented language, known as CM (from Configura), and I have never worked with that before, and they knew that. What helped me to launch those products with success was that the code base for this software was so well written, it was so easy to read and understand that with just a few weeks I was already solid with the language and the project flowed very well.`,
               technologies: ["CM", "CET Developer"],
             },
             {
