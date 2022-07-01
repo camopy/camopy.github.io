@@ -97,6 +97,10 @@ Delivered a better and more performant project creating a great infrastructure w
               title: "PetNaturau E-commerce Website",
               status: "Live",
               description: "E-commerce for PetNaturau company",
+              explanation: `• Responsible for the entire project from scratch.
+• Built the frontend with Svelte (Sapper), alongside Tailwind CSS.
+• Implemented the database using Cloud Firestore.
+• Developed the backend using multiple Firebase services like Authentication, Storage, and Functions.`,
               technologies: ["Svelte", "Tailwind CSS", "Firebase"],
               image: "/petnaturau.png",
               links: [
