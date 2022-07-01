@@ -43,19 +43,6 @@ endpoint. Everything is dockerized.`,
         },
       ],
     },
-    {
-      title: "Promoter",
-      description: `Web app designed to facilitate the marketing
-management of electronic music events, and also to promote such events
-throughout the country.`,
-      technologies: ["Vue", "Vuetify", "Firebase"],
-      links: [
-        {
-          title: "Github",
-          url: "https://github.com/camopy/promoter-nuxt-vuetify",
-        },
-      ],
-    },
   ];
 </script>
 
