@@ -118,6 +118,7 @@
     <ul class="text-center shadow-inner" transition:slide>
       <MenuItem name="About" link="#about" bind:openedMenu />
       <MenuItem name="Experience" link="#experience" bind:openedMenu />
+      <MenuItem name="Side Projects" link="#sideProjects" bind:openedMenu />
       <MenuItem name="Skills" link="#skills" bind:openedMenu />
       <MenuItem name="Education" link="#education" bind:openedMenu />
       <MenuItem

@@ -84,6 +84,7 @@
   <ul class="text-center shadow-inner">
     <MenuItem name="About" link="#about" />
     <MenuItem name="Experience" link="#experience" />
+    <MenuItem name="Side Projects" link="#sideProjects" />
     <MenuItem name="Skills" link="#skills" />
     <MenuItem name="Education" link="#education" />
     <MenuItem

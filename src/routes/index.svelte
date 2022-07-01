@@ -6,6 +6,7 @@
   import Experience from "$lib/components/experience/Experience.svelte";
   import Skills from "$lib/components/skills/Skills.svelte";
   import { selected } from "$lib/stores/menu";
+  import SideProjects from "$lib/components/sideProjects/sideProjects.svelte";
 
   let index, progress;
 
@@ -23,9 +24,12 @@
           $selected = "Experience";
           break;
         case 2:
-          $selected = "Skills";
+          $selected = "Side Projects";
           break;
         case 3:
+          $selected = "Skills";
+          break;
+        case 4:
           $selected = "Education";
           break;
       }
@@ -38,6 +42,7 @@
   <div slot="foreground" class="flex-1 flex flex-col">
     <About />
     <Experience />
+    <SideProjects />
     <Skills />
     <Education />
   </div>
