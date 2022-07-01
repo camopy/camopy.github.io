@@ -7,7 +7,7 @@
 
   const experience = [
     {
-      title: "Software Developer/Engineer",
+      title: "Software Development Engineer",
       company: "Born In Code",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
@@ -15,7 +15,7 @@
       good code architecture, up-to-date technologies, and best practices. Most of them were developed using Go, JavaScript frameworks, and AWS/Firebase.`,
       positions: [
         {
-          title: "Full Stack Engineer",
+          title: "Software Development Engineer",
           startDate: "Jul 2019",
           projects: [
             {
@@ -185,7 +185,7 @@ software`,
       ],
     },
     {
-      title: "Software Developer/Engineer",
+      title: "Software Development Engineer",
       company: "300 Softwares",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2017",
@@ -195,7 +195,7 @@ iOS development, and website design. Several projects were developed using diffe
 Vue, Firebase, NodeJS, Swift, Polymer, Keystone, Elasticsearch.`,
       positions: [
         {
-          title: "Software Developer/Engineer",
+          title: "Software Development Engineer",
           startDate: "Fev 2019",
           endDate: "Jun 2019",
           projects: [
@@ -220,7 +220,7 @@ doctors and patients, with a patient timeline with health data and prescriptions
           ],
         },
         {
-          title: "Web Developer - Frontend",
+          title: "Frontend Developer",
           startDate: "Jul 2017",
           endDate: "Jan 2018",
           projects: [
@@ -275,7 +275,7 @@ Allsteel's website`,
       ],
     },
     {
-      title: "Web Developer - Backend",
+      title: "Backend Developer",
       company: "Teknisa Software",
       location: "Belo Horizonte, Brazil",
       startDate: "Nov 2012",
@@ -284,7 +284,7 @@ Allsteel's website`,
 throughout the company. Projects developed using PHP, Javascript, and Oracle.`,
       positions: [
         {
-          title: "Web Developer",
+          title: "Backend Developer",
           startDate: "Nov 2012",
           endDate: "Jun 2017",
           projects: [
@@ -307,7 +307,7 @@ da Fazenda do Estado).`,
       ],
     },
     {
-      title: "Web Developer - Frontend",
+      title: "Web Developer",
       company: "PUC Minas",
       location: "Belo Horizonte, Brazil",
       startDate: "May 2010",
