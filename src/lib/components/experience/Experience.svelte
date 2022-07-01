@@ -177,12 +177,6 @@ doctors and patients, with a patient timeline with health data and prescriptions
           endDate: "Jan 2018",
           projects: [
             {
-              title: "Unwritten Rules Tour Website",
-              location: "USA",
-              description: `WordPress adjustments like menu and responsive design.`,
-              technologies: ["Wordpress"],
-            },
-            {
               title: "300 Softwares Website",
               description: `300 Softwares website development`,
               technologies: ["HTML5", "Bootstrap CSS", "JQuery"],
@@ -195,32 +189,23 @@ doctors and patients, with a patient timeline with health data and prescriptions
               ],
             },
             {
-              title: "Design Intake",
+              title: "Allsteel Projects",
               location: "USA",
-              description: `Tool, used by Allsteel designers, which creates new
-requests in the Sharepoint system, which is later used by the sales force team`,
-              technologies: ["NodeJS", "Jade", "JQuery", "SharePoint"],
-            },
-            {
-              title: "Budgeting Tool",
-              location: "USA",
-              description: `Tool, used by Allsteel designers, which calculates the
-costs for the installation of walls and doors, and stores a history of budgets in
-the Sharepoint system, which is later used by the sales force team.`,
-              technologies: ["NodeJS", "Jade", "JQuery", "SharePoint"],
-            },
-            {
-              title: "Typicals, Textiles, Image Gallery",
-              location: "USA",
-              description: `Maintained the project for listing and filtering all available Typicals, Textiles, and Product Images on
-Allsteel's website`,
-              technologies: ["NodeJS", "Polymer", "Keystone", "Elasticsearch"],
-            },
-            {
-              title: "HNI-One Portal",
-              location: "USA",
-              description: `Adjustments for the WordPress portal from HNI-One company`,
-              technologies: ["Wordpress"],
+              description: `Unwritten Rules Tour Website | Design Intake | Budgeting Tool | HNI-One Portal | Typicals, Textiles, Image Gallery`,
+              explanation: `• Involved in the development of web apps using JavaScript frameworks and NodeJS.
+• Implemented website design.
+• Wrote code based on software designs.
+• Provided internal support for various departments. Adhered to ethical software development processes.
+• Solved project-related distress signs and analyzed the bugs and problems arising at each stage of the product development cycle.
+• Ensured compliance with quality and security protocols to maintain the sustainability of the projects carried out by the organization.`,
+              technologies: [
+                "NodeJS",
+                "Jade",
+                "JQuery",
+                "WordPress",
+                "Polymer",
+                "Keystone",
+              ],
             },
           ],
         },
