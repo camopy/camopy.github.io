@@ -21,23 +21,21 @@
             {
               title: "Criptorium",
               description: `Online crypto portfolio which connects to various
-exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil. This project is a relaunch because I had created it early back in 2019, with different technologies. But after learning Go I saw a great opportunity to make it better and more performant, also creating a great infrastructure with AWS which made it more resilient and a total redesign of the website.`,
-              explanation: `As a solo developer, I needed a way to quickly and efficiently deliver an infrastructure, so I decided to use AWS for it, especially Elastic Beanstalk.
-              All the development environment and deployment to AWS Elastic Beanstalk were made using Docker (docker compose).
-
-For the database, I used AWS RDS with PostgreSQL as I would mostly work with transactional data, hence a good fit for a relational database.
-
-Authentication was done using JWT via AWS Cognito.
-
-Payments were made using Stripe with a webhook for subscription handling.
-
-All the monitoring and metrics were done using AWS CloudWatch, but for development/testing purposes I used Prometheus and Grafana.
-
-I needed a queue system to handle the crypto wallet fetch requests (some exchange APIs have a weight limit), so I used AWS SQS. Having a queue system has also helped to handle retries for failed wallet fetches, because of the dead queue mechanism.
-
-For the backend, I used Go because I knew I would need all the performance I could get for it, its concurrency tools would help me a lot for fetching transactions from crypto exchanges APIs.
-
-I also wanted to use a modern frontend framework, so I decided to use Svelte Kit alongside Tailwind CSS, which also has a very good developer experience.`,
+exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the monthly report required by the Brazilian government.
+Delivered a better and more performant project creating a great infrastructure with AWS, making it a more modern, and resilient website. The project is live at the moment with ongoing feature implementations.`,
+              explanation: `• Responsible for the entire project from scratch.
+• Acted as a solo developer.
+• Implemented Go for the backend and its concurrency tools helped transactions fetching from crypto exchanges APIs.
+• Built a modern front-end using Svelte Kit alongside Tailwind CSS.
+• Used AWS Elastic Beanstalk to efficiently deliver the infrastructure.
+• Deployed all the development using Docker Compose.
+• Used AWS lambda to customize application messages.
+• Used AWS RDS for the database with PostgreSQL to mostly work with transactional data.
+• Implemented authentication using JWT via AWS Cognito.
+• Enabled payments using Stripe with a webhook for subscription handling.
+• Implemented AWS CloudWatch for all the monitoring, alerts, and metrics
+• Used Prometheus and Grafana for development and testing purposes.
+• Used AWS SQS for the queue system to handle the crypto wallet fetch requests, as some exchange APIs have a weight limit.`,
               technologies: [
                 "Go",
                 "SvelteKit",
@@ -72,13 +70,13 @@ I also wanted to use a modern frontend framework, so I decided to use Svelte Kit
               private: true,
               description:
                 "A service for file synchronization across servers around the world at lightning speed with a centralized dashboard and alerting system for monitoring.",
-              explanation: `For the backend, I used Go because I knew I would need all the performance I could get for it. I had to create a local log file watcher and its concurrency tools helped me a lot because I could parse multiple log files concurrently without affecting the system performance. I would also need to perform some command prompt operations and it was quite easy to do with Go.
-
-For the database, I used PostgreSQL.
-
-All the monitoring, alerting, and metrics were made using Prometheus and Grafana.
-
-I also wanted to use a modern frontend framework, so I decided to use Svelte Kit alongside Tailwind CSS, which also has a very good developer experience.`,
+              explanation: `• Used Go for the backend.
+• Created a local log file watcher and Go's concurrency tools helped to parse multiple log files concurrently improving the system performance.
+• Performed command prompt operations using Go.
+• Used PostgreSQL for the database.
+• Implemented monitoring, alerting, and metrics using Prometheus and Grafana.
+• Used Svelte Kit alongside Tailwind CSS to build a modern front-end.
+              `,
               technologies: [
                 "Go",
                 "PostgreSQL",
@@ -206,13 +204,11 @@ Vue, Firebase, NodeJS, Swift, Polymer, Keystone, Elasticsearch.`,
               description: `Web app designed to facilitate communication between
 doctors and patients, with a patient timeline with health data and prescriptions.`,
               technologies: ["Vue", "Firebase"],
-              explanation: `I was responsible for the entire project from scratch.
-
-              For the frontend, I used Vue (Vuex for state management) alongside Vuetify (Material Design UI Library), which is a great JavaScript framework for building web apps.
-
-              The database used was Cloud Firestore, which is a NoSQL document-oriented database.
-
-              For the backend, I used multiple Firebase services like Authentication, Storage, and Functions.`,
+              explanation: `• Involved in the development of a web app designed to facilitate communication between doctors and patients, with a patient timeline with health data and prescriptions.
+• Responsible for the entire project from scratch.
+• Built the frontend with Vue and Vuex for state management, alongside Vuetify for Material Design UI Library.
+• Implemented the database using Cloud Firestore, which is a NoSQL document-oriented database.
+• Developed the backend using multiple Firebase services like Authentication, Storage, and Functions.`,
               image: "/azygos.png",
               links: [
                 {
