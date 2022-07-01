@@ -294,6 +294,12 @@ throughout the company. Projects developed using PHP, Javascript, and Oracle.`,
 transmission, for the Pebbian ERP system. The system registers and maintains
 all the invoices and transmits them through a web service to SEFAZ (Secretaria
 da Fazenda do Estado).`,
+              explanation: `• Acted on a team with other developers and tech leads.
+• Worked with SQL databases (Oracle) to handle transactional data.
+• Implemented PHP for the backend.
+• Built a modern front-end using JavaScript.
+• Advocated for improvements to product quality, security, and performance.
+• Solved technical problems of moderate scope and complexity.`,
               technologies: ["PHP", "JavaScript", "Oracle"],
             },
           ],
