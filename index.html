@@ -41,17 +41,17 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-b6229858.js">
+		<link rel="modulepreload" href="/_app/start-088183f7.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-b0b55241.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-f726b73a.js">
 		<link rel="modulepreload" href="/_app/chunks/menu-57cfb51c.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-642c7242.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-1e9ce024.js">
 		<link rel="stylesheet" href="/_app/assets/start-464e9d0a.css">
 		<link rel="stylesheet" href="/_app/assets/vendor-06a4b528.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-2a4af1a7.css">
 
 		<script type="module">
-			import { start } from "/_app/start-b6229858.js";
+			import { start } from "/_app/start-088183f7.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -65,7 +65,7 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-f726b73a.js"),
-						import("/_app/pages/index.svelte-642c7242.js")
+						import("/_app/pages/index.svelte-1e9ce024.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -177,23 +177,21 @@
       </div>
 
     <p>Online crypto portfolio which connects to various
-exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the IN 1.888 monthly report required by Receita Federal do Brasil. This project is a relaunch because I had created it early back in 2019, with different technologies. But after learning Go I saw a great opportunity to make it better and more performant, also creating a great infrastructure with AWS which made it more resilient and a total redesign of the website.</p>
-    <blockquote class="whitespace-pre-line pl-2 border-l-2">As a solo developer, I needed a way to quickly and efficiently deliver an infrastructure, so I decided to use AWS for it, especially Elastic Beanstalk.
-              All the development environment and deployment to AWS Elastic Beanstalk were made using Docker (docker compose).
-
-For the database, I used AWS RDS with PostgreSQL as I would mostly work with transactional data, hence a good fit for a relational database.
-
-Authentication was done using JWT via AWS Cognito.
-
-Payments were made using Stripe with a webhook for subscription handling.
-
-All the monitoring and metrics were done using AWS CloudWatch, but for development/testing purposes I used Prometheus and Grafana.
-
-I needed a queue system to handle the crypto wallet fetch requests (some exchange APIs have a weight limit), so I used AWS SQS. Having a queue system has also helped to handle retries for failed wallet fetches, because of the dead queue mechanism.
-
-For the backend, I used Go because I knew I would need all the performance I could get for it, its concurrency tools would help me a lot for fetching transactions from crypto exchanges APIs.
-
-I also wanted to use a modern frontend framework, so I decided to use Svelte Kit alongside Tailwind CSS, which also has a very good developer experience.</blockquote>
+exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the monthly report required by the Brazilian government.
+Delivered a better and more performant project creating a great infrastructure with AWS, making it a more modern, and resilient website. The project is live at the moment with ongoing feature implementations.</p>
+    <blockquote class="whitespace-pre-line pl-2 border-l-2">• Responsible for the entire project from scratch.
+• Acted as a solo developer.
+• Implemented Go for the backend and its concurrency tools helped transactions fetching from crypto exchanges APIs.
+• Built a modern front-end using Svelte Kit alongside Tailwind CSS.
+• Used AWS Elastic Beanstalk to efficiently deliver the infrastructure.
+• Deployed all the development using Docker Compose.
+• Used AWS lambda to customize application messages.
+• Used AWS RDS for the database with PostgreSQL to mostly work with transactional data.
+• Implemented authentication using JWT via AWS Cognito.
+• Enabled payments using Stripe with a webhook for subscription handling.
+• Implemented AWS CloudWatch for all the monitoring, alerts, and metrics
+• Used Prometheus and Grafana for development and testing purposes.
+• Used AWS SQS for the queue system to handle the crypto wallet fetch requests, as some exchange APIs have a weight limit.</blockquote>
 
     <div class="flex gap-2 flex-wrap"><div class="bg-accent text-white px-2 font-bold">Go</div><div class="bg-accent text-white px-2 font-bold">SvelteKit</div><div class="bg-accent text-white px-2 font-bold">Tailwind CSS</div><div class="bg-accent text-white px-2 font-bold">PostgreSQL</div><div class="bg-accent text-white px-2 font-bold">Prometheus</div><div class="bg-accent text-white px-2 font-bold">Grafana</div><div class="bg-accent text-white px-2 font-bold">Docker</div><div class="bg-accent text-white px-2 font-bold">Stripe</div><div class="bg-accent text-white px-2 font-bold">AWS Elastic Beanstalk</div><div class="bg-accent text-white px-2 font-bold">AWS RDS</div><div class="bg-accent text-white px-2 font-bold">AWS Cognito</div><div class="bg-accent text-white px-2 font-bold">AWS CloudWatch</div><div class="bg-accent text-white px-2 font-bold">AWS SQS</div></div>
 
@@ -207,13 +205,13 @@ I also wanted to use a modern frontend framework, so I decided to use Svelte Kit
   <span class="text-sm">USA</span></div></div>
 
     <p>A service for file synchronization across servers around the world at lightning speed with a centralized dashboard and alerting system for monitoring.</p>
-    <blockquote class="whitespace-pre-line pl-2 border-l-2">For the backend, I used Go because I knew I would need all the performance I could get for it. I had to create a local log file watcher and its concurrency tools helped me a lot because I could parse multiple log files concurrently without affecting the system performance. I would also need to perform some command prompt operations and it was quite easy to do with Go.
-
-For the database, I used PostgreSQL.
-
-All the monitoring, alerting, and metrics were made using Prometheus and Grafana.
-
-I also wanted to use a modern frontend framework, so I decided to use Svelte Kit alongside Tailwind CSS, which also has a very good developer experience.</blockquote>
+    <blockquote class="whitespace-pre-line pl-2 border-l-2">• Used Go for the backend.
+• Created a local log file watcher and Go&#39;s concurrency tools helped to parse multiple log files concurrently improving the system performance.
+• Performed command prompt operations using Go.
+• Used PostgreSQL for the database.
+• Implemented monitoring, alerting, and metrics using Prometheus and Grafana.
+• Used Svelte Kit alongside Tailwind CSS to build a modern front-end.
+              </blockquote>
 
     <div class="flex gap-2 flex-wrap"><div class="bg-accent text-white px-2 font-bold">Go</div><div class="bg-accent text-white px-2 font-bold">PostgreSQL</div><div class="bg-accent text-white px-2 font-bold">Prometheus</div><div class="bg-accent text-white px-2 font-bold">Grafana</div><div class="bg-accent text-white px-2 font-bold">Docker</div><div class="bg-accent text-white px-2 font-bold">SvelteKit (TypeScript)</div><div class="bg-accent text-white px-2 font-bold">Tailwind CSS</div></div>
 
@@ -348,13 +346,11 @@ Vue, Firebase, NodeJS, Swift, Polymer, Keystone, Elasticsearch.</p></div></div>
 
     <p>Web app designed to facilitate communication between
 doctors and patients, with a patient timeline with health data and prescriptions.</p>
-    <blockquote class="whitespace-pre-line pl-2 border-l-2">I was responsible for the entire project from scratch.
-
-              For the frontend, I used Vue (Vuex for state management) alongside Vuetify (Material Design UI Library), which is a great JavaScript framework for building web apps.
-
-              The database used was Cloud Firestore, which is a NoSQL document-oriented database.
-
-              For the backend, I used multiple Firebase services like Authentication, Storage, and Functions.</blockquote>
+    <blockquote class="whitespace-pre-line pl-2 border-l-2">• Involved in the development of a web app designed to facilitate communication between doctors and patients, with a patient timeline with health data and prescriptions.
+• Responsible for the entire project from scratch.
+• Built the frontend with Vue and Vuex for state management, alongside Vuetify for Material Design UI Library.
+• Implemented the database using Cloud Firestore, which is a NoSQL document-oriented database.
+• Developed the backend using multiple Firebase services like Authentication, Storage, and Functions.</blockquote>
 
     <div class="flex gap-2 flex-wrap"><div class="bg-accent text-white px-2 font-bold">Vue</div><div class="bg-accent text-white px-2 font-bold">Firebase</div></div>
 
