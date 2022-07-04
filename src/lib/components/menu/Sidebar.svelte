@@ -16,7 +16,7 @@
       Paulo Camopy <span class="text-base">Software Developer</span>
     </h1>
     <div class="flex gap-2">
-      <SocialMedia link="mailto:paulorenato.cpb@gmail.com" label="Email">
+      <SocialMedia link="mailto:camopy@icloud.com" label="Email">
         <svg
           alt="Email"
           xmlns="http://www.w3.org/2000/svg"

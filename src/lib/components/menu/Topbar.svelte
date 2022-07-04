@@ -33,7 +33,7 @@
     class="w-full border-t border-b border-primary py-4 px-2 flex justify-between"
   >
     <div class="flex gap-2">
-      <SocialMedia link="mailto:paulorenato.cpb@gmail.com" label="Email">
+      <SocialMedia link="mailto:camopy@icloud.com" label="Email">
         <svg
           alt="Email"
           xmlns="http://www.w3.org/2000/svg"
