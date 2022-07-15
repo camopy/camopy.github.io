@@ -123,7 +123,7 @@
       <MenuItem name="Education" link="#education" bind:openedMenu />
       <MenuItem
         name="Resume"
-        link="https://drive.google.com/file/d/1Hif5zd1lefBhAJf-EAMk-baVi8IHipHP/view?usp=sharing"
+        link="https://drive.google.com/file/d/18cbIJazsTg-EgD4Ekou5T88BQV9xQRvK/view?usp=sharing"
         bind:openedMenu
       />
     </ul>
