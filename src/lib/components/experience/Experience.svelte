@@ -143,9 +143,8 @@ software`,
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2017",
       endDate: "Jun 2019",
-      description: `Development of web apps using JavaScript frameworks and NodeJS,
-iOS development, and website design. Several projects were developed using different technologies, such as
-Vue, Firebase, NodeJS, Swift, Polymer, Keystone, Elasticsearch.`,
+      description: `Development of web apps using JavaScript frameworks. Several projects were developed using
+VueJS, Firebase, PolymerJS, Jade, KeystoneJS.`,
       positions: [
         {
           title: "Software Development Engineer",
@@ -193,19 +192,18 @@ doctors and patients, with a patient timeline with health data and prescriptions
               title: "Allsteel Projects",
               location: "USA",
               description: `Unwritten Rules Tour Website | Design Intake | Budgeting Tool | HNI-One Portal | Typicals, Textiles, Image Gallery`,
-              explanation: `• Involved in the development of web apps using JavaScript frameworks and NodeJS.
+              explanation: `• Involved in the development of web apps using JavaScript frameworks.
 • Implemented website design.
 • Wrote code based on software designs.
 • Provided internal support for various departments. Adhered to ethical software development processes.
 • Solved project-related distress signs and analyzed the bugs and problems arising at each stage of the product development cycle.
 • Ensured compliance with quality and security protocols to maintain the sustainability of the projects carried out by the organization.`,
               technologies: [
-                "NodeJS",
                 "Jade",
                 "JQuery",
                 "WordPress",
-                "Polymer",
-                "Keystone",
+                "PolymerJS",
+                "KeystoneJS",
               ],
             },
           ],
