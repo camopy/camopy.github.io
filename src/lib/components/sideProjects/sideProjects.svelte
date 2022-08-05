@@ -6,6 +6,57 @@
 
   const projects = [
     {
+      title: "Browser Chat",
+      description: `This project is designed to showcase an event-driven/clean architecture implementation of a simple
+browser-based chat application using Go.
+
+`,
+      image: "/browser-chat.png",
+      technologies: ["Go", "PostgreSQL", "Docker"],
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/camopy/browser-chat",
+        },
+      ],
+    },
+    {
+      title: "Sitemap Generator",
+      description: `This project is designed to showcase Go concurrency's power on a implementation of a simple
+sitemap generator using only standard library.
+
+`,
+      technologies: ["Go"],
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/camopy/sitemap-generator",
+        },
+      ],
+    },
+    {
+      title: "Go Fetch Posts",
+      description: `This is my resolution for a common interview question to fetch posts from an API.`,
+      technologies: ["Go"],
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/camopy/posts-fetcher",
+        },
+      ],
+    },
+    {
+      title: "Go Concurrency Exercises",
+      description: `This is my resolutions for some Go concurrency/race condition exercises.`,
+      technologies: ["Go"],
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/camopy/go-concurrency-exercises-solutions",
+        },
+      ],
+    },
+    {
       title: "Python Log Parser - Study case",
       description: `Basic Python log parser that saves to a MySQL database
 and serves metrics to Prometheus and Grafana through a Flask REST API
