@@ -7,11 +7,66 @@
   const experience = [
     {
       title: "Software Development Engineer",
+      company: "Aurox",
+      location: "Texas, USA",
+      startDate: "Aug 2022",
+      description: `Joined Aurox in August 2022 with limited blockchain expertise, rapidly acquiring extensive and valuable knowledge in the field.
+      As a proficient Golang developer, I collaborated with a team of exceptional developers to successfully integrate multiple features into the Aurox ecosystem.
+      My contributions were held to high standards, prioritizing solid code architecture and adherence to best practices for every pull request.`,
+      positions: [
+        {
+          title: "Software Development Engineer",
+          startDate: "Aug 2022",
+          projects: [
+            {
+              title: "Aurox Blockchain Indexer",
+              description: `Aurox is a leading crypto software ecosystem. It features a terminal designed to help users make educated trades decisions by allowing them to monitor the entire cryptocurrency market;
+              and the safest and easiest web3 wallet that enables users to manage their crypto assets and interact with decentralized applications (dApps) on EVM chains.`,
+              explanation: `• Served as a key Golang developer within a dynamic and multi cultural team of approximately 10 members.
+• Designed, implemented, and sustained a range of GraphQL queries, including real-time subscriptions through websockets.
+• Optimized API response times by implementing strategic caching techniques, employing memory cache and Redis solutions.
+• Orchestrated the seamless integration of third-party APIs, enhancing overall system functionality.
+• Engineered robust webhooks to enable automated downtime reporting to the monitoring system.
+• Pioneered the implementation of multiple Prometheus metrics and Grafana dashboards, ensuring comprehensive system monitoring and performance evaluation.
+• Assumed responsibility for maintaining and managing multiple blockchain nodes, ensuring their consistent and reliable operation.`,
+              technologies: [
+                "Go",
+                "BlockChain",
+                "PostgreSQL",
+                "ClickHouse",
+                "Redis",
+                "GraphQL",
+                "REST",
+                "Prometheus",
+                "Grafana",
+                "Sentry",
+                "Docker",
+                "Google Cloud",
+              ],
+              links: [
+                {
+                  title: "Website",
+                  url: "https://www.getaurox.com/",
+                },
+                {
+                  title: "Application",
+                  url: "https://getaurox.com/wallet",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Software Development Engineer",
       company: "Born In Code",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
-      description: `As a solo developer, I have worked on multiple projects from scratch, always taking into account a
-      good code architecture, up-to-date technologies, and best practices. Most of them were developed using Go, JavaScript frameworks, and AWS/Firebase.`,
+      description: `As a solo developer, I undertook the responsibility of conceptualizing and executing multiple projects from the ground up.
+      Aiming for impeccable code architecture, contemporary technologies, and adherence to best practices, I meticulously crafted each project.
+      The tech stack I employed included Go, JavaScript frameworks, and pivotal cloud services like AWS and Firebase.
+      This approach facilitated seamless integration of strong code foundations with innovative functionalities, resulting in the delivery of efficient and easily maintainable software solutions`,
       positions: [
         {
           title: "Software Development Engineer",
@@ -19,22 +74,24 @@
           projects: [
             {
               title: "Criptorium",
-              description: `Online crypto portfolio which connects to various
-exchanges through their APIs and syncs your balance and trade history, with the purpose of generating the monthly report required by the Brazilian government.
-Delivered a better and more performant project creating a great infrastructure with AWS, making it a more modern, and resilient website. The project is live at the moment with ongoing feature implementations.`,
-              explanation: `• Responsible for the entire project from scratch.
-• Acted as a solo developer.
-• Implemented Go for the backend and its concurrency tools helped transactions fetching from crypto exchanges APIs.
-• Built a modern front-end using Svelte Kit alongside Tailwind CSS.
-• Used AWS Elastic Beanstalk to efficiently deliver the infrastructure.
-• Deployed all the development using Docker Compose.
-• Used AWS lambda to customize application messages.
-• Used AWS RDS for the database with PostgreSQL to mostly work with transactional data.
-• Implemented authentication using JWT via AWS Cognito.
-• Enabled payments using Stripe with a webhook for subscription handling.
-• Implemented AWS CloudWatch for all the monitoring, alerts, and metrics
-• Used Prometheus and Grafana for development and testing purposes.
-• Used AWS SQS for the queue system to handle the crypto wallet fetch requests, as some exchange APIs have a weight limit.`,
+              status: "Discontinued",
+              description: `Online cryptocurrency portfolio platform that seamlessly integrates with multiple exchanges via their APIs, enabling the automatic synchronization of account balances and comprehensive trade histories.
+              This dynamic solution serves the specific purpose of generating essential monthly reports mandated by the Brazilian government.
+              I led the transformation of the project, significantly enhancing its performance and user experience.
+              By leveraging AWS, I architected a robust and scalable infrastructure that propelled the platform into modernity and heightened resilience.`,
+              explanation: `• Led the entire project from inception.
+• Functioned as a solo developer throughout the project.
+• Employed Go for backend development, leveraging its concurrency tools for efficient transactions retrieval from crypto exchange APIs.
+• Crafted a modern frontend using Svelte Kit and Tailwind CSS.
+• Utilized AWS Elastic Beanstalk for streamlined infrastructure delivery.
+• Managed deployment using Docker Compose for comprehensive deployment efficiency.
+• Customized application messages using AWS Lambda.
+• Utilized AWS RDS with PostgreSQL, primarily for handling transactional data.
+• Implemented JWT-based authentication through AWS Cognito.
+• Enabled payments utilizing Stripe, with a webhook integration for subscription management.
+• Implemented AWS CloudWatch for comprehensive monitoring, alerts, and metrics.
+• Utilized Prometheus and Grafana for focused development and testing.
+• Implemented AWS SQS as a queue system to manage crypto wallet fetch requests, addressing weight limits of certain exchange APIs.`,
               technologies: [
                 "Go",
                 "SvelteKit",
@@ -44,6 +101,7 @@ Delivered a better and more performant project creating a great infrastructure w
                 "Grafana",
                 "Docker",
                 "Stripe",
+                "REST",
                 "AWS Elastic Beanstalk",
                 "AWS RDS",
                 "AWS Cognito",
@@ -64,18 +122,18 @@ Delivered a better and more performant project creating a great infrastructure w
             },
             {
               title: "Celler",
+              status: "Discontinued",
               location: "USA",
               inProgress: true,
               private: true,
               description:
                 "A service for file synchronization across servers around the world at lightning speed with a centralized dashboard and alerting system for monitoring.",
-              explanation: `• Used Go for the backend.
-• Created a local log file watcher and Go's concurrency tools helped to parse multiple log files concurrently improving the system performance.
-• Performed command prompt operations using Go.
-• Used PostgreSQL for the database.
-• Implemented monitoring, alerting, and metrics using Prometheus and Grafana.
-• Used Svelte Kit alongside Tailwind CSS to build a modern front-end.
-              `,
+              explanation: `• Utilized Go for backend development.
+• Developed a local log file watcher, leveraging Go's concurrency tools to concurrently parse multiple log files, thereby enhancing system performance.
+• Executed command prompt operations using Go.
+• Employed PostgreSQL as the database management system.
+• Implemented comprehensive monitoring, alerting, and metrics utilizing Prometheus and Grafana.
+• Constructed a contemporary front-end using Svelte Kit in conjunction with Tailwind CSS.`,
               technologies: [
                 "Go",
                 "PostgreSQL",
@@ -97,10 +155,10 @@ Delivered a better and more performant project creating a great infrastructure w
               title: "PetNaturau E-commerce Website",
               status: "Live",
               description: "E-commerce for PetNaturau company",
-              explanation: `• Responsible for the entire project from scratch.
-• Built the frontend with Svelte (Sapper), alongside Tailwind CSS.
-• Implemented the database using Cloud Firestore.
-• Developed the backend using multiple Firebase services like Authentication, Storage, and Functions.`,
+              explanation: `• Undertook complete ownership of the project from its inception.
+• Constructed the frontend using Svelte (Sapper) in combination with Tailwind CSS.
+• Established the database infrastructure utilizing Cloud Firestore.
+• Engineered the backend using a variety of Firebase services, including Authentication, Storage, and Functions.`,
               technologies: ["Svelte", "Tailwind CSS", "Firebase"],
               image: "/petnaturau.png",
               links: [
@@ -123,7 +181,7 @@ Delivered a better and more performant project creating a great infrastructure w
               description: `Worked for the Stylex Team, customizing their products
 (Share, FA, Yoom, NYC, Metrum) in CET. I have also developed two new
 products for them (Still, Quick).`,
-              explanation: `I was chosen to be the developer for the Stylex Team, they needed me to develop some new products for them on the CET Developer Software. This software uses an undocumented language, known as CM (from Configura), and I have never worked with that before, and they knew that. What helped me to launch those products with success was that the code base for this software was so well written, it was so easy to read and understand that with just a few weeks I was already solid with the language and the project flowed very well.`,
+              explanation: `I was chosen to lead development for the Stylex Team, tasked with creating new products using the CET Developer Software. Despite having no prior experience with the undocumented CM language (from Configura), I quickly adapted and thrived. The software's impeccably organized codebase facilitated a smooth transition, enabling me to comprehend the language and project nuances within just a few weeks. This solid foundation allowed me to successfully launch the products in a remarkably short timeframe, a testament to the clarity and cohesiveness of the codebase.`,
               technologies: ["CM", "CET Developer"],
             },
             {
@@ -156,11 +214,11 @@ VueJS, Firebase, PolymerJS, Jade, KeystoneJS.`,
               description: `Web app designed to facilitate communication between
 doctors and patients, with a patient timeline with health data and prescriptions.`,
               technologies: ["Vue", "Firebase"],
-              explanation: `• Involved in the development of a web app designed to facilitate communication between doctors and patients, with a patient timeline with health data and prescriptions.
+              explanation: `• Contributed to the development of a web application aimed at enhancing communication between doctors and patients, incorporating a patient timeline featuring health data and prescriptions.
 • Responsible for the entire project from scratch.
-• Built the frontend with Vue and Vuex for state management, alongside Vuetify for Material Design UI Library.
-• Implemented the database using Cloud Firestore, which is a NoSQL document-oriented database.
-• Developed the backend using multiple Firebase services like Authentication, Storage, and Functions.`,
+• Constructed the frontend using Vue.js and Vuex for effective state management, while leveraging Vuetify for Material Design UI components.
+• Established the database infrastructure utilizing Cloud Firestore, a NoSQL document-oriented database.
+• Engineered the backend using a range of Firebase services, including Authentication, Storage, and Functions.`,
               image: "/azygos.png",
               links: [
                 {
