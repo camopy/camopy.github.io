@@ -6,6 +6,19 @@
 
   const projects = [
     {
+      title: "Feed Aggregator Bot",
+      description: `This open-source project aims to aggregate various types of feeds, including RSS, Reddit, YouTube, Crypto, and more, consolidating them for distribution to a designated Telegram channel.
+      Notably, the project features direct integration of chatGPT, seamlessly incorporating its capabilities into the bot's functionality.
+`,
+      technologies: ["Go", "Redis", "Telegram Bot API"],
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/camopy/arya",
+        },
+      ],
+    },
+    {
       title: "Browser Chat",
       description: `This project is designed to showcase an event-driven/clean architecture implementation of a simple
 browser-based chat application using Go.
