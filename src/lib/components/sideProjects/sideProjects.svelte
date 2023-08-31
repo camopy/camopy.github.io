@@ -6,7 +6,7 @@
 
   const projects = [
     {
-      title: "Feed Aggregator Bot",
+      title: "Arya",
       description: `This open-source project aims to aggregate various types of feeds, including RSS, Reddit, YouTube, Crypto, and more, consolidating them for distribution to a designated Telegram channel.
       Notably, the project features direct integration of chatGPT, seamlessly incorporating its capabilities into the bot's functionality.
 `,
