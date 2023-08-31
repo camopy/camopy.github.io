@@ -148,7 +148,7 @@
               links: [
                 {
                   title: "Website",
-                  url: "https://celler.tech",
+                  url: "https://inspiring-elion-bb29ec.netlify.app",
                 },
               ],
             },
