@@ -63,10 +63,11 @@
       company: "Born In Code",
       location: "Belo Horizonte, Brazil",
       startDate: "Jul 2019",
+      endDate: "Aug 2022",
       description: `As a solo developer, I undertook the responsibility of conceptualizing and executing multiple projects from the ground up.
       Aiming for impeccable code architecture, contemporary technologies, and adherence to best practices, I meticulously crafted each project.
       The tech stack I employed included Go, JavaScript frameworks, and pivotal cloud services like AWS and Firebase.
-      This approach facilitated seamless integration of strong code foundations with innovative functionalities, resulting in the delivery of efficient and easily maintainable software solutions`,
+      This approach facilitated seamless integration of strong code foundations with innovative functionalities, resulting in the delivery of efficient and easily maintainable software solutions.`,
       positions: [
         {
           title: "Software Development Engineer",
@@ -214,8 +215,7 @@ VueJS, Firebase, PolymerJS, Jade, KeystoneJS.`,
               description: `Web app designed to facilitate communication between
 doctors and patients, with a patient timeline with health data and prescriptions.`,
               technologies: ["Vue", "Firebase"],
-              explanation: `• Contributed to the development of a web application aimed at enhancing communication between doctors and patients, incorporating a patient timeline featuring health data and prescriptions.
-• Responsible for the entire project from scratch.
+              explanation: `• Responsible for the entire project from scratch.
 • Constructed the frontend using Vue.js and Vuex for effective state management, while leveraging Vuetify for Material Design UI components.
 • Established the database infrastructure utilizing Cloud Firestore, a NoSQL document-oriented database.
 • Engineered the backend using a range of Firebase services, including Authentication, Storage, and Functions.`,
