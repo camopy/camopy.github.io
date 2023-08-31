@@ -28,6 +28,9 @@
       {#if project.location}
         <ProjectLocation location={project.location} />
       {/if}
+      {#if project.status === "Discontinued"}
+        <span class="text-red-500 text-sm font-medium">{project.status}</span>
+      {/if}
     </div>
 
     <p>{project.description}</p>
