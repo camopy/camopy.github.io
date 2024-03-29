@@ -24,8 +24,8 @@
               and the safest and easiest web3 wallet that enables users to manage their crypto assets and interact with decentralized applications (dApps) on EVM chains.`,
               explanation: `• Served as a key Golang developer within a dynamic and multi cultural team of approximately 10 members.
 • Designed, implemented, and sustained a range of GraphQL queries, including real-time subscriptions through websockets.
-• Optimized API response times by implementing strategic caching techniques, employing memory cache and Redis solutions.
-• Orchestrated the seamless integration of third-party APIs, enhancing overall system functionality.
+• Optimized API response times by implementing strategic caching techniques, employing memory cache, Redis, PostgreSQL and ClickHouse solutions (from 1s avg to less than 1ms avg).
+• Implemented the seamless integration of third-party APIs, enhancing overall system functionality.
 • Engineered robust webhooks to enable automated downtime reporting to the monitoring system.
 • Pioneered the implementation of multiple Prometheus metrics and Grafana dashboards, ensuring comprehensive system monitoring and performance evaluation.
 • Assumed responsibility for maintaining and managing multiple blockchain nodes, ensuring their consistent and reliable operation.`,
