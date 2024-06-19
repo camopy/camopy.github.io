@@ -90,24 +90,24 @@
                 image: "firebase.svg",
             },
         ],
-      db: [
-        {
-          name: "PostgreSQL",
-          image: "postgresql.svg",
-        },
-        {
-          name: "ClickHouse",
-          image: "clickhouse.svg",
-        },
-        {
-          name: "Redis",
-          image: "redis.svg",
-        },
-        {
-          name: "MySQL",
-          image: "mysql.svg",
-        },
-      ],
+        db: [
+            {
+                name: "PostgreSQL",
+                image: "postgresql.svg",
+            },
+            {
+                name: "Redis",
+                image: "redis.svg",
+            },
+            {
+                name: "ClickHouse",
+                image: "clickhouse.svg",
+            },
+            {
+                name: "MySQL",
+                image: "mysql.svg",
+            },
+        ],
         other: [
             {
                 name: "REST",
@@ -138,11 +138,11 @@
     <SectionContent>
         <div class="flex flex-col gap-8">
             <SkillGroup skills={skills.languages} title="Languages"/>
-            <SkillGroup skills={skills.frameworks} title="Frameworks"/>
-            <SkillGroup skills={skills.web} title="Web"/>
             <SkillGroup skills={skills.cloud} title="Cloud"/>
             <SkillGroup skills={skills.db} title="Database"/>
             <SkillGroup skills={skills.other} title="Other"/>
+            <SkillGroup skills={skills.frameworks} title="Frameworks"/>
+            <SkillGroup skills={skills.web} title="Web"/>
         </div>
     </SectionContent>
 </Section>
