@@ -12,6 +12,10 @@
                 image: "go.svg",
             },
             {
+                name: "Flutter",
+                image: "flutter.svg",
+            },
+            {
                 name: "JavaScript",
                 image: "javascript.svg",
             },
@@ -34,7 +38,7 @@
         ],
         frameworks: [
             {
-                name: "Svelte",
+                name: "SvelteKit",
                 image: "svelte.svg",
             },
             {
@@ -74,6 +78,10 @@
                 image: "aws.svg",
             },
             {
+                name: "Fly.io",
+                image: "flyio.svg",
+            },
+            {
                 name: "Google Cloud",
                 image: "gcloud.svg",
             },
@@ -101,6 +109,10 @@
         },
       ],
         other: [
+            {
+                name: "REST",
+                image: "rest.svg",
+            },
             {
                 name: "GraphQL",
                 image: "graphql.svg",
