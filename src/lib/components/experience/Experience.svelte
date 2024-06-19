@@ -7,9 +7,76 @@
   const experience = [
     {
       title: "Software Development Engineer",
+      company: "PLUR station",
+      location: "Balneário Camboriú, Brazil",
+      startDate: "Jan 2024",
+      description: `In early 2024, I joined PLUR Station with the goal of launching an MVP. Leveraging my extensive Golang and programming expertise,
+I also learned Flutter to create both mobile and web apps.`,
+      positions: [
+        {
+          title: "Software Development Engineer",
+          startDate: "Jan 2024",
+          projects: [
+            {
+              title: "PLUR station - Promoter/Crew",
+              description: `PLUR Station is a startup operating in the electronic music events domain. The project addresses current challenges
+that hinder Crews from expanding their events to larger areas. Additionally, it provides a platform for Promoters across the country to easily discover
+available events and apply to promote them. Key features include: Event Creation: Crews can create their own events. Promoter Applications: Promoters can
+apply to participate in events. Mission Management: Crews manage events by creating multiple time-bound missions, each with its own priority and points.
+Ranking System: A points-based ranking system rewards top promoters with benefits offered by the Crew.`,
+              explanation: `• Acted as a key Golang and Flutter developer.
+• Developed two independent Flutter apps — one for Crews and another for Promoters.
+• Implemented authentication using AWS Cognito.
+• Managed file upload and download via AWS S3.
+• Designed and executed unit tests, functional tests, and load tests using the Golang standard library and the k6 testing tool.
+• Established CI/CD pipelines for testing and deploying the entire system to Fly.io cloud.
+• Created and maintained multiple REST endpoints to handle create/update/delete operations from the Flutter apps.
+• Implemented GraphQL queries.
+• Executed database migrations for PostgreSQL.
+• Designed a notification system using pub/sub techniques, GraphQL subscriptions, and Golang generics.
+• Developed a ranking system by leveraging Redis to store denormalized data, improving API response time by avoiding multiple SQL queries and joins.
+• Customized integration with the Google Places API.
+• Set up comprehensive system monitoring with Prometheus metrics.`,
+              technologies: [
+                "Go",
+                "Flutter",
+                "PostgreSQL",
+                "Redis",
+                "GraphQL",
+                "REST",
+                "Prometheus",
+                "Grafana",
+                "k6",
+                "Docker",
+                "AWS S3",
+                "AWS Cognito",
+                "Fly.io",
+              ],
+              links: [
+                {
+                  title: "Website",
+                  url: "https://www.plurstation.com/",
+                },
+                {
+                  title: "Application - Crew",
+                  url: "https://crew.plurstation.com/",
+                },
+                {
+                  title: "Application - Promoter",
+                  url: "https://promoter.plurstation.com/",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Software Development Engineer",
       company: "Aurox",
       location: "Texas, USA",
       startDate: "Aug 2022",
+      endDate: "Dec 2023",
       description: `Joined Aurox in August 2022 with limited blockchain expertise, rapidly acquiring extensive and valuable knowledge in the field.
       As a proficient Golang developer, I collaborated with a team of exceptional developers to successfully integrate multiple features into the Aurox ecosystem.
       My contributions were held to high standards, prioritizing solid code architecture and adherence to best practices for every pull request.`,
