@@ -229,12 +229,6 @@ Ranking System: A points-based ranking system rewards top promoters with benefit
 • Engineered the backend using a variety of Firebase services, including Authentication, Storage, and Functions.`,
               technologies: ["Svelte", "Tailwind CSS", "Firebase"],
               image: "/petnaturau.png",
-              links: [
-                {
-                  title: "Website",
-                  url: "https://assinatura.petnaturau.com",
-                },
-              ],
             },
           ],
         },
