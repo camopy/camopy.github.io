@@ -7,15 +7,60 @@
   const experience = [
     {
       title: "Software Development Engineer",
+      company: "YES Technology",
+      location: "Brazil",
+      startDate: "Aug 2024",
+      description: `I contributed significantly to the development and optimization of the transaction-engine microservice,
+       implementing new metrics, identifying and resolving vulnerabilities, and improving performance through tracing and profiling.`,
+      positions: [
+        {
+          title: "Software Development Engineer",
+          startDate: "Jan 2024",
+          projects: [
+            {
+              title: "Platform | Transaction Engine",
+              description: `Yes.Technology is a forward-thinking company dedicated to enhancing business efficiency through innovative software solutions.
+               Their focus is on integrating modern digital technologies like Robotic Process Automation (RPA) and Artificial Intelligence (AI) to foster sustainable
+               business practices and a circular economy. Their goal is to streamline management and operational processes within a unified digital environment,
+               continually pushing for professional excellence and creating motivated teams.`,
+              explanation: `• Implemented a locking system to ensure exclusive transaction processing for each pod.
+• Refactored a microservice and established a pub-sub strategy with background routines, leading to significant performance improvements.
+• Developed a structured logging system along with custom error messages to enhance log readability.
+• Implemented tracing and profiling techniques.
+• Created a command-line interface (CLI) for internal routine tasks to support our team.
+• Provided recommendations for enhancements, including the use of the K6 framework and the implementation of queues for improved performance and maintenance.  `,
+              technologies: [
+                "Go",
+                "MySQL",
+                "Prometheus",
+                "Grafana",
+                "AWS CloudWatch",
+                "AWS SQS",
+              ],
+              links: [
+                {
+                  title: "Website",
+                  url: "https://www.yes.technology/",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Software Development Engineer",
       company: "PLUR station",
       location: "Balneário Camboriú, Brazil",
       startDate: "Jan 2024",
+      endDate: "Aug 2024",
       description: `In early 2024, I joined PLUR Station with the goal of launching an MVP. Leveraging my extensive Golang and programming expertise,
 I also learned Flutter to create both mobile and web apps.`,
       positions: [
         {
           title: "Software Development Engineer",
           startDate: "Jan 2024",
+          endDate: "Aug 2024",
           projects: [
             {
               title: "PLUR station - Promoter/Crew",
