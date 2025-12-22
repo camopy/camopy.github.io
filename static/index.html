@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paulo Camopy · Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Paulo Camopy, software developer focused on backend systems, cloud platforms, and developer tooling."
+    />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#101214",
+              sand: "#f7f2ec",
+              accent: "#d18c4f",
+              cool: "#2d5c6f",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-sand text-ink">
+    <div class="relative isolate">
+      <div
+        aria-hidden="true"
+        class="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
+      >
+        <div
+          class="gradient-orb absolute -top-32 left-10 h-72 w-72 rounded-full bg-[radial-gradient(circle_at_top,#f4c79c,transparent_70%)]"
+        ></div>
+        <div
+          class="gradient-orb alt absolute top-32 right-6 h-80 w-80 rounded-full bg-[radial-gradient(circle_at_top,#9cc1d0,transparent_70%)]"
+        ></div>
+        <div
+          class="absolute bottom-0 left-0 h-48 w-full bg-gradient-to-t from-[#efe7de] to-transparent"
+        ></div>
+      </div>
+
+      <header class="sticky top-0 z-30 border-b border-black/10 bg-white/70 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+          <a href="#home" class="text-lg font-semibold tracking-tight">
+            Paulo Camopy
+          </a>
+          <nav class="hidden items-center gap-6 text-sm font-medium md:flex" aria-label="Primary">
+            <a class="hover:text-accent" href="#about">About</a>
+            <a class="hover:text-accent" href="#experience">Experience</a>
+            <a class="hover:text-accent" href="#projects">Projects</a>
+            <a class="hover:text-accent" href="#skills">Skills</a>
+            <a class="hover:text-accent" href="#education">Education</a>
+            <a class="hover:text-accent" href="#contact">Contact</a>
+          </nav>
+          <div class="hidden items-center gap-3 md:flex">
+            <a
+              class="button-outline rounded-full px-4 py-2 text-sm font-semibold"
+              href="https://drive.google.com/file/d/17UPvLV-42oBnh3Q8IUxooOP8QUfeo4qK/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </div>
+          <details class="relative md:hidden">
+            <summary class="list-none rounded-full border border-black/10 bg-white px-3 py-2 text-sm font-semibold">
+              Menu
+            </summary>
+            <div
+              class="glass-panel absolute right-0 mt-3 w-48 rounded-2xl p-4 text-sm shadow-lg"
+            >
+              <div class="flex flex-col gap-3">
+                <a class="hover:text-accent" href="#about">About</a>
+                <a class="hover:text-accent" href="#experience">Experience</a>
+                <a class="hover:text-accent" href="#projects">Projects</a>
+                <a class="hover:text-accent" href="#skills">Skills</a>
+                <a class="hover:text-accent" href="#education">Education</a>
+                <a class="hover:text-accent" href="#contact">Contact</a>
+                <a
+                  class="button-outline rounded-full px-3 py-1 text-center"
+                  href="https://drive.google.com/file/d/17UPvLV-42oBnh3Q8IUxooOP8QUfeo4qK/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Resume
+                </a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </header>
+
+      <main class="mx-auto max-w-6xl px-6">
+        <section id="home" class="section-spacing grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+          <div class="space-y-6">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
+              Software Developer · Backend · Cloud
+            </p>
+            <h1 class="heading-font text-4xl font-semibold leading-tight md:text-5xl">
+              Building resilient systems and elegant product experiences.
+            </h1>
+            <p class="text-lg text-ink-soft">
+              I design and ship cloud-native services, developer tooling, and high-impact
+              products. I focus on observability, performance, and maintainable architecture
+              across the stack.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a
+                class="button-primary rounded-full px-5 py-2 text-sm font-semibold"
+                href="mailto:camopy@icloud.com"
+              >
+                Contact me
+              </a>
+              <a
+                class="button-outline rounded-full px-5 py-2 text-sm font-semibold"
+                href="https://github.com/camopy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                class="button-outline rounded-full px-5 py-2 text-sm font-semibold"
+                href="https://www.linkedin.com/in/camopy/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div class="grid gap-2 pt-4 text-sm text-ink-soft md:grid-cols-3">
+              <div class="rounded-2xl border border-black/10 bg-white/70 p-4">
+                <p class="text-xs uppercase tracking-[0.2em] text-accent">Focus</p>
+                <p class="font-semibold">Backend systems</p>
+              </div>
+              <div class="rounded-2xl border border-black/10 bg-white/70 p-4">
+                <p class="text-xs uppercase tracking-[0.2em] text-accent">Stack</p>
+                <p class="font-semibold">Go · PostgreSQL · Redis</p>
+              </div>
+              <div class="rounded-2xl border border-black/10 bg-white/70 p-4">
+                <p class="text-xs uppercase tracking-[0.2em] text-accent">Location</p>
+                <p class="font-semibold">Brazil · Remote</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="absolute -left-6 top-6 h-full w-full rounded-[36px] bg-white/50"></div>
+            <div class="card-shadow relative rounded-[36px] border border-black/10 bg-white p-6">
+              <img
+                src="/perfil.JPG"
+                alt="Portrait of Paulo Camopy"
+                class="h-80 w-full rounded-3xl object-cover"
+              />
+              <div class="mt-6 space-y-3">
+                <h2 class="heading-font text-2xl">Profile snapshot</h2>
+                <p class="text-sm text-ink-soft">
+                  13+ years building SaaS platforms, blockchain analytics, and
+                  event-tech products. Passionate about performance tuning, system monitoring,
+                  observability, and resilient infrastructure.
+                </p>
+                <div class="flex flex-wrap gap-2 text-xs">
+                  <span class="tag rounded-full px-3 py-1">Observability</span>
+                  <span class="tag rounded-full px-3 py-1">Distributed systems</span>
+                  <span class="tag rounded-full px-3 py-1">Developer tooling</span>
+                  <span class="tag rounded-full px-3 py-1">Cloud automation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="anchor-offset section-spacing">
+          <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+            <div class="space-y-4">
+              <h2 class="heading-font text-3xl">About</h2>
+              <p class="text-lg text-ink-soft">
+                I build developer-first experiences and scalable backend systems.
+                My work blends pragmatic engineering with product polish, focusing on
+                reliability, clear data flows, and intentional UX.
+              </p>
+              <p class="text-lg text-ink-soft">
+                Recent work includes admin APIs, transaction engines, event platforms, and
+                crypto analytics with deep investment in tracing, metrics, and
+                performance tuning.
+              </p>
+            </div>
+            <div class="glass-panel rounded-3xl p-6">
+              <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
+                Current stack
+              </h3>
+              <div class="mt-4 grid gap-4 text-sm text-ink-soft md:grid-cols-2">
+                <div>
+                  <p class="font-semibold text-ink">Languages</p>
+                  <p>Go, TypeScript, Python</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-ink">Datastores</p>
+                  <p>PostgreSQL, Redis, ClickHouse</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-ink">Cloud</p>
+                  <p>AWS, Fly.io, GCP, Firebase</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-ink">Observability</p>
+                  <p>Prometheus, Grafana, Sentry</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="anchor-offset section-spacing">
+          <div class="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h2 class="heading-font text-3xl">Experience</h2>
+              <p class="text-ink-soft">
+                Selected roles focused on backend performance, platform reliability,
+                and product delivery.
+              </p>
+            </div>
+            <a
+              class="text-sm font-semibold text-accent"
+              href="https://drive.google.com/file/d/17UPvLV-42oBnh3Q8IUxooOP8QUfeo4qK/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View full resume →
+            </a>
+          </div>
+          <ol class="mt-10 space-y-8 border-l border-black/10 pl-6">
+            <li class="relative">
+              <span class="absolute -left-[9px] top-2 h-3 w-3 rounded-full bg-accent"></span>
+              <div class="space-y-2">
+                <p class="text-sm text-ink-soft">Jan 2025 — Present · Rain</p>
+                <h3 class="heading-font text-2xl">Software Development Engineer</h3>
+                <p class="text-ink-soft">
+                  Own and develop core backend systems for Rain’s admin and employer portals, working across multiple teams to deliver reliable, scalable features.
+                <ul class="list-disc pl-5 text-sm text-ink-soft">
+                  <li>Led backend integrations by clarifying ambiguous requirements and aligning solutions across multiple teams.</li>
+                  <li>Built and shipped new employer dashboard metrics by exploring and querying the data warehouse with minimal prior context.</li>
+                  <li>Act as a go-to engineer for the portals backend, with strong ownership and readiness to onboard or support new contributors.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="relative">
+              <span class="absolute -left-[9px] top-2 h-3 w-3 rounded-full bg-accent"></span>
+              <div class="space-y-2">
+                <p class="text-sm text-ink-soft">Aug 2024 — Mar 2025 · YES Technology</p>
+                <h3 class="heading-font text-2xl">Software Development Engineer</h3>
+                <p class="text-ink-soft">
+                  Strengthened a transaction-engine microservice with tracing,
+                  structured logging, and performance upgrades for high-throughput traffic.
+                </p>
+                <ul class="list-disc pl-5 text-sm text-ink-soft">
+                  <li>Introduced locking and pub/sub routines to improve throughput.</li>
+                  <li>Built CLI utilities and custom error taxonomies for ops support.</li>
+                  <li>Implemented metrics, tracing, and profiling in production.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="relative">
+              <span class="absolute -left-[9px] top-2 h-3 w-3 rounded-full bg-accent"></span>
+              <div class="space-y-2">
+                <p class="text-sm text-ink-soft">Jan 2024 — Aug 2024 · PLUR Station</p>
+                <h3 class="heading-font text-2xl">Software Development Engineer</h3>
+                <p class="text-ink-soft">
+                  Launched an MVP across web and mobile, covering event creation,
+                  ranking systems, and notification flows.
+                </p>
+                <ul class="list-disc pl-5 text-sm text-ink-soft">
+                  <li>Built Go APIs with auth, storage, and GraphQL queries.</li>
+                  <li>Designed CI/CD pipelines and monitoring dashboards.</li>
+                  <li>Implemented Redis-backed ranking and pub/sub notifications.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="relative">
+              <span class="absolute -left-[9px] top-2 h-3 w-3 rounded-full bg-accent"></span>
+              <div class="space-y-2">
+                <p class="text-sm text-ink-soft">Aug 2022 — Dec 2023 · Aurox</p>
+                <h3 class="heading-font text-2xl">Software Development Engineer</h3>
+                <p class="text-ink-soft">
+                  Delivered blockchain indexing and analytics features with
+                  real-time GraphQL subscriptions and aggressive performance tuning.
+                </p>
+                <ul class="list-disc pl-5 text-sm text-ink-soft">
+                  <li>Cut response times with Redis, PostgreSQL, and ClickHouse.</li>
+                  <li>Owned webhook reliability and monitoring workflows.</li>
+                  <li>Maintained blockchain nodes and observability tooling.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="relative">
+              <span class="absolute -left-[9px] top-2 h-3 w-3 rounded-full bg-accent"></span>
+              <div class="space-y-2">
+                <p class="text-sm text-ink-soft">Jul 2019 — Aug 2022 · Born In Code</p>
+                <h3 class="heading-font text-2xl">Software Development Engineer</h3>
+                <p class="text-ink-soft">
+                  Led multiple end-to-end projects, from architecture and
+                  infrastructure to frontend delivery.
+                </p>
+                <ul class="list-disc pl-5 text-sm text-ink-soft">
+                  <li>Built SaaS products using Go, AWS, and modern frontend stacks.</li>
+                  <li>Managed observability stacks and deployment automation.</li>
+                  <li>Delivered multiple products as a solo developer.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section id="projects" class="anchor-offset section-spacing">
+          <h2 class="heading-font text-3xl">Side Projects</h2>
+          <p class="mt-2 text-ink-soft">
+            Experiments, open-source tools, and study projects that explore
+            distributed systems and developer tooling.
+          </p>
+          <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <article class="card-shadow rounded-3xl border border-black/10 bg-white p-6">
+              <h3 class="heading-font text-2xl">Arya</h3>
+              <p class="mt-2 text-sm text-ink-soft">
+                Aggregates RSS, Reddit, and YouTube into a curated
+                Discord/Telegram channel with AI summaries.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="tag rounded-full px-3 py-1">Go</span>
+                <span class="tag rounded-full px-3 py-1">Redis</span>
+                <span class="tag rounded-full px-3 py-1">Discord API</span>
+                <span class="tag rounded-full px-3 py-1">Telegram API</span>
+              </div>
+              <a
+                class="mt-4 inline-flex text-sm font-semibold text-accent"
+                href="https://github.com/camopy/arya"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub →
+              </a>
+            </article>
+            <article class="card-shadow rounded-3xl border border-black/10 bg-white p-6">
+              <h3 class="heading-font text-2xl">Browser Chat</h3>
+              <p class="mt-2 text-sm text-ink-soft">
+                Event-driven chat application showcasing clean architecture and
+                Go-powered realtime messaging.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="tag rounded-full px-3 py-1">Go</span>
+                <span class="tag rounded-full px-3 py-1">PostgreSQL</span>
+                <span class="tag rounded-full px-3 py-1">Docker</span>
+              </div>
+              <a
+                class="mt-4 inline-flex text-sm font-semibold text-accent"
+                href="https://github.com/camopy/browser-chat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub →
+              </a>
+            </article>
+            <article class="card-shadow rounded-3xl border border-black/10 bg-white p-6">
+              <h3 class="heading-font text-2xl">Sitemap Generator</h3>
+              <p class="mt-2 text-sm text-ink-soft">
+                CLI utility highlighting Go concurrency for large-scale sitemap
+                generation using the standard library.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="tag rounded-full px-3 py-1">Go</span>
+                <span class="tag rounded-full px-3 py-1">Concurrency</span>
+              </div>
+              <a
+                class="mt-4 inline-flex text-sm font-semibold text-accent"
+                href="https://github.com/camopy/sitemap-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub →
+              </a>
+            </article>
+            <article class="card-shadow rounded-3xl border border-black/10 bg-white p-6">
+              <h3 class="heading-font text-2xl">Python Log Parser</h3>
+              <p class="mt-2 text-sm text-ink-soft">
+                Dockerized log ingestion pipeline with Prometheus metrics and
+                Grafana dashboards.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="tag rounded-full px-3 py-1">Python</span>
+                <span class="tag rounded-full px-3 py-1">Go</span>
+                <span class="tag rounded-full px-3 py-1">MySQL</span>
+                <span class="tag rounded-full px-3 py-1">Prometheus</span>
+              </div>
+              <a
+                class="mt-4 inline-flex text-sm font-semibold text-accent"
+                href="https://github.com/camopy/log_parser_dockerized_flask_prometheus_grafana"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub →
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="anchor-offset section-spacing">
+          <h2 class="heading-font text-3xl">Skills</h2>
+          <p class="mt-2 text-ink-soft">
+            Tools and platforms I reach for when building high-performing products.
+          </p>
+          <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <div class="glass-panel rounded-3xl p-6">
+              <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Languages</h3>
+              <div class="mt-4 flex flex-wrap gap-2 text-sm">
+                <span class="tag rounded-full px-3 py-1">Go</span>
+                <span class="tag rounded-full px-3 py-1">TypeScript</span>
+                <span class="tag rounded-full px-3 py-1">JavaScript</span>
+                <span class="tag rounded-full px-3 py-1">Python</span>
+                <span class="tag rounded-full px-3 py-1">PHP</span>
+              </div>
+            </div>
+            <div class="glass-panel rounded-3xl p-6">
+              <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Frameworks</h3>
+              <div class="mt-4 flex flex-wrap gap-2 text-sm">
+                <span class="tag rounded-full px-3 py-1">Svelte</span>
+                <span class="tag rounded-full px-3 py-1">React</span>
+                <span class="tag rounded-full px-3 py-1">Flutter</span>
+                <span class="tag rounded-full px-3 py-1">Vue</span>
+              </div>
+            </div>
+            <div class="glass-panel rounded-3xl p-6">
+              <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Cloud</h3>
+              <div class="mt-4 flex flex-wrap gap-2 text-sm">
+                <span class="tag rounded-full px-3 py-1">AWS</span>
+                <span class="tag rounded-full px-3 py-1">GCP</span>
+                <span class="tag rounded-full px-3 py-1">Fly.io</span>
+                <span class="tag rounded-full px-3 py-1">Firebase</span>
+              </div>
+            </div>
+            <div class="glass-panel rounded-3xl p-6">
+              <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Data & Observability</h3>
+              <div class="mt-4 flex flex-wrap gap-2 text-sm">
+                <span class="tag rounded-full px-3 py-1">PostgreSQL</span>
+                <span class="tag rounded-full px-3 py-1">Redis</span>
+                <span class="tag rounded-full px-3 py-1">ClickHouse</span>
+                <span class="tag rounded-full px-3 py-1">Prometheus</span>
+                <span class="tag rounded-full px-3 py-1">Grafana</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="anchor-offset section-spacing">
+          <h2 class="heading-font text-3xl">Education</h2>
+          <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <div class="card-shadow rounded-3xl border border-black/10 bg-white p-6">
+              <p class="text-sm text-ink-soft">2018</p>
+              <h3 class="heading-font text-xl">B.S. Information Systems</h3>
+              <p class="text-sm text-ink-soft">
+                Pontifícia Universidade Católica de Minas Gerais, Brazil
+              </p>
+            </div>
+            <div class="card-shadow rounded-3xl border border-black/10 bg-white p-6">
+              <p class="text-sm text-ink-soft">5th grade</p>
+              <h3 class="heading-font text-xl">B.S. Computer Science</h3>
+              <p class="text-sm text-ink-soft">
+                Pontifícia Universidade Católica de Minas Gerais, Brazil
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="anchor-offset section-spacing">
+          <div class="glass-panel rounded-3xl p-8 md:p-10">
+            <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+              <div>
+                <h2 class="heading-font text-3xl">Let’s build something great.</h2>
+                <p class="mt-2 text-ink-soft">
+                  Open to remote roles, consulting, and collaborations. Reach out for
+                  system design, backend engineering, or product strategy support.
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a
+                  class="button-primary rounded-full px-5 py-2 text-sm font-semibold"
+                  href="mailto:camopy@icloud.com"
+                >
+                  Email me
+                </a>
+                <a
+                  class="button-outline rounded-full px-5 py-2 text-sm font-semibold"
+                  href="https://t.me/camopy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Telegram
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="border-t border-black/10 bg-white/70 py-6">
+        <div class="mx-auto flex max-w-6xl flex-col gap-2 px-6 text-sm text-ink-soft md:flex-row md:items-center md:justify-between">
+          <p>© Paulo Camopy. Built with HTML + Tailwind CSS.</p>
+          <div class="flex gap-4">
+            <a class="hover:text-accent" href="https://github.com/camopy" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="hover:text-accent" href="https://www.linkedin.com/in/camopy/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="hover:text-accent" href="mailto:camopy@icloud.com">Email</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
