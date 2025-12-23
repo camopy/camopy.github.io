@@ -3,7 +3,4 @@ node_modules
 /build
 /.svelte-kit
 /package
-/.idea/camopy.github.io.iml
-/.idea/go.imports.xml
-/.idea/vcs.xml
-/.idea/workspace.xml
+/.idea
