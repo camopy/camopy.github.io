@@ -73,7 +73,7 @@
               Resume
             </a>
           </div>
-          <details class="relative md:hidden">
+          <details class="relative md:hidden" data-mobile-menu>
             <summary class="list-none rounded-full border border-black/10 bg-white px-3 py-2 text-sm font-semibold">
               Menu
             </summary>
@@ -521,5 +521,27 @@
         </div>
       </footer>
     </div>
+    <script>
+      document.addEventListener("click", (event) => {
+        const menu = document.querySelector("details[data-mobile-menu]");
+
+        if (!menu) {
+          return;
+        }
+
+        const clickedMenu = event.target.closest("details[data-mobile-menu]");
+
+        if (!clickedMenu) {
+          menu.open = false;
+          return;
+        }
+
+        const link = event.target.closest("a");
+
+        if (link) {
+          menu.open = false;
+        }
+      });
+    </script>
   </body>
 </html>
