@@ -1,15 +1,10 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- `static/` is the site root for GitHub Pages and local previews. Add `index.html`, `styles.css`, and asset folders here.
-- `runConfigurations/` stores editor/CI helper configs; keep them aligned with the supported scripts rather than introducing conflicting commands.
 - `package.json` is retained for lightweight scripts and deployment; keep scripts aligned with the static build flow.
 
 ## Build, Test, and Development Commands
 - `npm run dev` serves the static site from `static/` on port 3001 for local iteration.
-- `npm run build` copies the static site into `build/` so deploys stay clean and deterministic.
-- `npm run preview` serves the production-ready `build/` output on port 4173.
-- `npm run deploy` builds and publishes `build/` to GitHub Pages via `gh-pages`.
 
 ## Coding Style & Naming Conventions
 - Use clear, descriptive HTML class names and keep Tailwind utility stacks readable by ordering classes (layout → spacing → typography → state).

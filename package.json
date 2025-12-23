@@ -1,13 +1,7 @@
 {
   "name": "camopy.github.io",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "python3 -m http.server 3001 --directory static",
-    "build": "rm -rf build && cp -R static build",
-    "preview": "python3 -m http.server 4173 --directory build",
-    "deploy": "npm run build && npx gh-pages -d build -t true"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "dev": "python3 -m http.server 3001",
   }
 }
