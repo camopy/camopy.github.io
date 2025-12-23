@@ -2,6 +2,6 @@
   "name": "camopy.github.io",
   "version": "0.1.0",
   "scripts": {
-    "dev": "python3 -m http.server 3001",
+    "dev": "python3 -m http.server 3001 --directory static"
   }
 }
